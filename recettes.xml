@@ -147,6 +147,14 @@
     </commande>
 
     <commande>
+        <clientRef>client1</clientRef>
+        <livreurRef>livreur1</livreurRef>
+        <menuRef>menu1</menuRef>
+        <dateCommande>2024-03-10</dateCommande>
+        <status>En cours de livraison</status>
+    </commande>
+
+    <commande>
         <clientRef>client2</clientRef>
         <livreurRef>livreur1</livreurRef>
         <menuRef>menu2</menuRef>
