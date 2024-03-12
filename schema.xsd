@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- On va définir tous nos types ici -->
+  <xsd:complexType name="TypeIngredient">
+    <xsd:sequence>
+      <xsd:element name="nom" type="xsd:string"/>
+      <xsd:element name="quantite" type="xsd:int"/>
+      <xsd:element name="unite" type="xsd:string"/>
+      <xsd:element name="sante" type="xsd:string"/> <!-- Ce pourrait être le nutriscore de l'ingrédient par exemple -->
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="TypeRecette">
+    <xsd:sequence>
+      <xsd:element name="titre" type="xsd:string"/>
+      <xsd:element name="description" type="xsd:string"/>
+      <xsd:element name="gastronomie" type="xsd:string"/> <!-- Par exemple végétarien, végan, ou alors Italien, Américain… -->
+      <xsd:element name="budget" type="xsd:int"/> <!-- Prix en euros -->
+      <xsd:element name="tempsPreparation" type="xsd:int"/>
+      <xsd:element name="ingredients" type="TypeIngredient" minOccurs="1" maxOccurs="unbounded"/>   <!-- Au minimum un ingrédient est nécessaire -->
+      <xsd:element name="etapes" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>            <!-- Au minimum une étape est nécessaire -->
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:ID" use="required"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="TypeMenu">
+    <xsd:sequence>
+      <xsd:element name="semaine" type="xsd:int"/>  <!-- Indique sur quel semaine l'entreprise a prévu ce menu -->
+      <xsd:element name="recetteRef" type="xsd:IDREFS" minOccurs="1" maxOccurs="unbounded"/>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:ID" use="required"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="TypeClient">
+    <xsd:sequence>
+      <xsd:element name="nom" type="xsd:string"/>
+      <xsd:element name="adresseLivraison" type="xsd:string"/>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:ID" use="required"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="TypeLivreur">
+    <xsd:sequence>
+      <xsd:element name="nom" type="xsd:string"/>
+      <xsd:element name="entreprise" type="xsd:string"/>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:ID" use="required"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="TypeCommande">
+    <xsd:sequence>
+      <xsd:element name="clientRef" type="xsd:IDREFS"/>
+      <xsd:element name="livreurRef" type="xsd:IDREFS"/>
+      <xsd:element name="menuRef" type="xsd:IDREFS"/>
+      <xsd:element name="dateCommande" type="xsd:date"/>
+      <xsd:element name="status" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="TypeCommentaire">
+    <xsd:sequence>
+      <xsd:element name="auteur" type="xsd:string"/>
+      <xsd:element name="date" type="xsd:date"/>
+      <xsd:element name="contenu" type="xsd:string"/>
+      <xsd:element name="note" type="xsd:int"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <!-- Cet élément va être notre élément racine -->
+  <xsd:element name="boiteRecettes">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="client" type="TypeClient" minOccurs="1" maxOccurs="unbounded"/>
+        <xsd:element name="livreur" type="TypeLivreur" minOccurs="1" maxOccurs="unbounded"/>
+        <xsd:element name="recette" type="TypeRecette" minOccurs="1" maxOccurs="unbounded"/>
+        <xsd:element name="menu" type="TypeMenu" minOccurs="1" maxOccurs="unbounded"/>
+        <xsd:element name="commande" type="TypeCommande" minOccurs="1" maxOccurs="unbounded"/>
+        <xsd:element name="commentaire" type="TypeCommentaire" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+</xsd:schema>

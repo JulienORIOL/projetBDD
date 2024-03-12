@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boiteRecettes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd">
+
+    <!-- On commence par définir de client qui vont passer commande dans notre entreprise -->
+    <client id="client1">
+        <nom>Marie Durand</nom>
+        <adresseLivraison>12 rue des Lilas, 75015 Paris</adresseLivraison>
+    </client>
+
+    <client id="client2">
+        <nom>Jean Martin</nom>
+        <adresseLivraison>35 avenue du Général Leclerc, 75014 Paris</adresseLivraison>
+    </client>
+
+    <client id="client3">
+        <nom>Sophie Dupuis</nom>
+        <adresseLivraison>78 boulevard de Belleville, 75020 Paris</adresseLivraison>
+    </client>
+
+    <!-- On définit des livreurs qui vont pouvoir livrer nos clients qui ont passé commande -->
+    <livreur id="livreur1">
+        <nom>Thomas Lefebvre</nom>
+        <entreprise>ExpressDelivery</entreprise>
+    </livreur>
+
+    <livreur id="livreur2">
+        <nom>Hugo Dupont</nom>
+        <entreprise>Deliveroo</entreprise>
+    </livreur>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <!-- On définit des recettes qui vont pouvoir être inclues dans nos menus -->
+    <recette id="recette_poulet_curry">
+        <titre>Poulet au curry</titre>
+        <description>Poulet tendre dans une sauce curry onctueuse avec du riz !</description>
+        <gastronomie>Indienne</gastronomie>
+        <budget>25</budget>
+        <tempsPreparation>45</tempsPreparation>
+        <ingredients>
+            <nom>poulet</nom>
+            <quantite>400</quantite>
+            <unite>grammes</unite>
+            <sante>B</sante>
+        </ingredients>
+        <ingredients>
+            <nom>pâte de curry</nom>
+            <quantite>3</quantite>
+            <unite>cuillères à soupe</unite>
+            <sante>C</sante>
+        </ingredients>
+        <etapes>Faire revenir le poulet dans une poêle</etapes>
+        <etapes>Ajouter la pâte de curry et la crème, puis laisser mijoter</etapes>
+    </recette>
+
+    <recette id="recette_spaghetti_carbonara">
+        <titre>Spaghetti Carbonara</titre>
+        <description>Spaghetti avec une sauce crémeuse au lard et au fromage !</description>
+        <gastronomie>Italienne</gastronomie>
+        <budget>20</budget>
+        <tempsPreparation>30</tempsPreparation>
+        <ingredients>
+            <nom>spaghetti</nom>
+            <quantite>500</quantite>
+            <unite>grammes</unite>
+            <sante>B</sante>
+        </ingredients>
+        <ingredients>
+            <nom>lardons</nom>
+            <quantite>150</quantite>
+            <unite>grammes</unite>
+            <sante>D</sante>
+        </ingredients>
+        <etapes>Cuire les spaghetti al dente</etapes>
+        <etapes>Faire revenir les lardons et préparer la sauce</etapes>
+    </recette>
+
+    <recette id="recette_salade_césar">
+        <titre>Salade César</titre>
+        <description>Salade croquante avec poulet grillé, croûtons et sauce César !</description>
+        <gastronomie>Americaine</gastronomie>
+        <budget>15</budget>
+        <tempsPreparation>25</tempsPreparation>
+        <ingredients>
+            <nom>laitue</nom>
+            <quantite>1</quantite>
+            <unite>unité</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>poulet</nom>
+            <quantite>200</quantite>
+            <unite>grammes</unite>
+            <sante>B</sante>
+        </ingredients>
+        <ingredients>
+            <nom>sauce César</nom>
+            <quantite>10</quantite>
+            <unite>millilitres</unite>
+            <sante>C</sante>
+        </ingredients>
+        <etapes>Griller le poulet et préparer la salade</etapes>
+        <etapes>Ajouter les croûtons et la sauce</etapes>
+    </recette>
+
+    <recette id="recette_ratatouille">
+        <titre>Ratatouille</titre>
+        <description>Mélange de légumes méditerranéens lentement mijotés !</description>
+        <gastronomie>Française</gastronomie>
+        <budget>18</budget>
+        <tempsPreparation>60</tempsPreparation>
+        <ingredients>
+            <nom>courgette</nom>
+            <quantite>2</quantite>
+            <unite>unités</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>aubergine</nom>
+            <quantite>1</quantite>
+            <unite>unité</unite>
+            <sante>A</sante>
+        </ingredients>
+        <etapes>Faire revenir chaque légume séparément</etapes>
+        <etapes>Mélanger les légumes et laisser mijoter à feu doux</etapes>
+    </recette>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <!-- On définit des menus que nos clients vont pouvoir commander -->
+    <menu id="menu1">
+        <semaine>16</semaine>
+        <recetteRef>recette_poulet_curry recette_salade_césar</recetteRef>
+    </menu>
+
+    <menu id="menu2">
+        <semaine>17</semaine>
+        <recetteRef>recette_spaghetti_carbonara recette_ratatouille</recetteRef>
+    </menu>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <!-- On définit des commandes que nos clients ont pu passer auprès de notre entreprise -->
+    <commande>
+        <clientRef>client1</clientRef>
+        <livreurRef>livreur1</livreurRef>
+        <menuRef>menu1</menuRef>
+        <dateCommande>2024-03-08</dateCommande>
+        <status>Livrée</status>
+    </commande>
+
+    <commande>
+        <clientRef>client2</clientRef>
+        <livreurRef>livreur1</livreurRef>
+        <menuRef>menu2</menuRef>
+        <dateCommande>2024-03-11</dateCommande>
+        <status>En cours de livraison</status>
+    </commande>
+
+    <commande>
+        <clientRef>client3</clientRef>
+        <livreurRef>livreur2</livreurRef>
+        <menuRef>menu1</menuRef>
+        <dateCommande>2024-03-12</dateCommande>
+        <status>En préparation</status>
+    </commande>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <!-- On définit les avis que les clients ont pu laisser sur notre entreprise -->
+    <commentaire>
+        <auteur>Jean Dupont</auteur>
+        <date>2023-03-05</date>
+        <contenu>Excellent menu, très gourmand et pas cher, je recommande !</contenu>
+        <note>5</note>
+    </commentaire>
+
+    <commentaire>
+        <auteur>Eliot Cleron</auteur>
+        <date>2023-03-07</date>
+        <contenu>Bon plats dans l'ensemble mais il manque en quantité</contenu>
+        <note>3</note>
+    </commentaire>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+</boiteRecettes>
