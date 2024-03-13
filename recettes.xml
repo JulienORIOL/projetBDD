@@ -832,7 +832,7 @@
         <livreurRef>livreur1</livreurRef>
         <menuRef>menu1</menuRef>
         <dateCommande>2024-03-10</dateCommande>
-        <status>En cours de livraison</status>
+        <status>Livrée</status>
     </commande>
 
     <commande>
@@ -840,7 +840,7 @@
         <livreurRef>livreur1</livreurRef>
         <menuRef>menu2</menuRef>
         <dateCommande>2024-03-11</dateCommande>
-        <status>En cours de livraison</status>
+        <status>Livrée</status>
     </commande>
 
     <commande>
@@ -848,7 +848,7 @@
         <livreurRef>livreur2</livreurRef>
         <menuRef>menu1</menuRef>
         <dateCommande>2024-03-12</dateCommande>
-        <status>En préparation</status>
+        <status>Livrée</status>
     </commande>
 
     <commande>
@@ -856,7 +856,7 @@
         <livreurRef>livreur3</livreurRef>
         <menuRef>menu2</menuRef>
         <dateCommande>2024-03-15</dateCommande>
-        <status>En préparation</status>
+        <status>Livrée</status>
     </commande>
     
     <commande>
@@ -864,7 +864,7 @@
         <livreurRef>livreur4</livreurRef>
         <menuRef>menu3</menuRef>
         <dateCommande>2024-03-16</dateCommande>
-        <status>En cours de livraison</status>
+        <status>Livrée</status>
     </commande>
     
     <commande>
@@ -880,7 +880,7 @@
         <livreurRef>livreur6</livreurRef>
         <menuRef>menu1</menuRef>
         <dateCommande>2024-03-17</dateCommande>
-        <status>En attente</status>
+        <status>Livrée</status>
     </commande>
     
     <commande>
@@ -888,7 +888,7 @@
         <livreurRef>livreur1</livreurRef>
         <menuRef>menu2</menuRef>
         <dateCommande>2024-03-19</dateCommande>
-        <status>En préparation</status>
+        <status>Livrée</status>
     </commande>
     
     <commande>
@@ -896,7 +896,7 @@
         <livreurRef>livreur2</livreurRef>
         <menuRef>menu3</menuRef>
         <dateCommande>2024-03-20</dateCommande>
-        <status>En cours de livraison</status>
+        <status>Livrée</status>
     </commande>
     
     <commande>
@@ -912,7 +912,7 @@
         <livreurRef>livreur4</livreurRef>
         <menuRef>menu1</menuRef>
         <dateCommande>2024-03-22</dateCommande>
-        <status>En attente</status>
+        <status>Livrée</status>
     </commande>
     
     <commande>
@@ -920,7 +920,7 @@
         <livreurRef>livreur5</livreurRef>
         <menuRef>menu2</menuRef>
         <dateCommande>2024-03-22</dateCommande>
-        <status>En préparation</status>
+        <status>Livrée</status>
     </commande>
     
     <commande>
@@ -928,7 +928,7 @@
         <livreurRef>livreur6</livreurRef>
         <menuRef>menu3</menuRef>
         <dateCommande>2024-03-22</dateCommande>
-        <status>En cours de livraison</status>
+        <status>Livrée</status>
     </commande>
     
     <commande>
@@ -944,7 +944,7 @@
         <livreurRef>livreur2</livreurRef>
         <menuRef>menu1</menuRef>
         <dateCommande>2024-03-26</dateCommande>
-        <status>En attente</status>
+        <status>Livrée</status>
     </commande>
     
     <commande>
@@ -952,7 +952,7 @@
         <livreurRef>livreur3</livreurRef>
         <menuRef>menu2</menuRef>
         <dateCommande>2024-03-27</dateCommande>
-        <status>En préparation</status>
+        <status>Livrée</status>
     </commande>
     
     <commande>
@@ -968,7 +968,7 @@
         <livreurRef>livreur5</livreurRef>
         <menuRef>menu4</menuRef>
         <dateCommande>2024-03-29</dateCommande>
-        <status>Livrée</status>
+        <status>En préparation</status>
     </commande>
     
     <commande>
@@ -976,7 +976,7 @@
         <livreurRef>livreur3</livreurRef>
         <menuRef>menu4</menuRef>
         <dateCommande>2024-03-29</dateCommande>
-        <status>Livrée</status>
+        <status>En attente</status>
     </commande>
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
