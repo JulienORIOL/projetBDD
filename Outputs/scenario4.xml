@@ -49,6 +49,55 @@
       </etapes>
     </recette>
   </categorie>
+  <categorie nom="Am&#xE9;ricaine">
+    <recette>
+      <titre>Cheesecake aux Myrtilles</titre>
+      <imageRecetteURL>https://www.biotona.be/wp-content/uploads/blueberry-cheesecake-10bis_676ca63e98b4f2262904de90c98c3e2d_2000.jpg</imageRecetteURL>
+      <description>Un dessert américain crémeux surmonté d'une couche de myrtilles fraîches.</description>
+      <budget>20</budget>
+      <tempsPreparation>240</tempsPreparation>
+      <ingredients>
+        <ingredient>
+          <nom>fromage frais type Philadelphia</nom>
+          <imageURL>https://www.ptitchef.com/imgupl/recipe/fromage-frais-maison-type-philadelphia-2-ingredients--459579p720672.jpg</imageURL>
+          <sante>C</sante>
+        </ingredient>
+        <ingredient>
+          <nom>biscuits Graham</nom>
+          <imageURL>https://francais.redpathsugar.com/sites/francais_redpathsugar_com/files/grahamcrackers_web-24.jpg</imageURL>
+          <sante>C</sante>
+        </ingredient>
+        <ingredient>
+          <nom>beurre fondu</nom>
+          <imageURL>https://assets.afcdn.com/recipe/20200911/114134_w300h300c1.jpg</imageURL>
+          <sante>D</sante>
+        </ingredient>
+        <ingredient>
+          <nom>sucre</nom>
+          <imageURL>https://www.sebacom.eu/wp-content/uploads/2023/06/journee-mondiale-du-diabete-cubes-sucre-dans-bol-verre-sol-sombre-1024x683.webp</imageURL>
+          <sante>E</sante>
+        </ingredient>
+        <ingredient>
+          <nom>myrtilles fraîches</nom>
+          <imageURL>https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_976,q_auto,w_1300/https://images-ca-1-0-1-eu.s3-eu-west-1.amazonaws.com/photos/original/1205/myrtilles-pixabay-bilberries-2559051_1280.jpg</imageURL>
+          <sante>A</sante>
+        </ingredient>
+        <ingredient>
+          <nom>gélatine</nom>
+          <imageURL>https://m.media-amazon.com/images/I/61aBcys8VML.jpg</imageURL>
+          <sante>C</sante>
+        </ingredient>
+      </ingredients>
+      <etapes>
+        <etape>Mélanger les biscuits écrasés avec le beurre fondu et presser le mélange dans le fond d'un moule à charnière pour former la base.</etape>
+        <etape>Battre le fromage frais avec le sucre jusqu'à l'obtention d'une consistance lisse.</etape>
+        <etape>Faire fondre la gélatine préalablement ramollie dans de l'eau froide, puis l'incorporer au mélange de fromage frais.</etape>
+        <etape>Verser la préparation sur la base de biscuit et lisser la surface.</etape>
+        <etape>Réfrigérer pendant au moins 4 heures ou jusqu'à ce que le cheesecake soit ferme.</etape>
+        <etape>Avant de servir, décorer avec les myrtilles fraîches sur le dessus.</etape>
+      </etapes>
+    </recette>
+  </categorie>
   <categorie nom="Fran&#xE7;aise">
     <recette>
       <titre>Ratatouille</titre>

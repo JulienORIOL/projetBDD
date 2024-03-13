@@ -6,9 +6,9 @@ tree = ET.parse('recettes.xml')
 root = tree.getroot()
 
 def classifier_par_budget(budget):
-    if budget < 15:
+    if budget < 19:
         return "Bas"
-    elif 15 <= budget <= 30:
+    elif 19 <= budget <= 25:
         return "Moyen"
     else:
         return "Élevé"

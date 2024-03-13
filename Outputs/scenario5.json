@@ -848,6 +848,81 @@
             
             ]
             }
+        , 
+            {
+            "titre": "Cheesecake aux Myrtilles",
+            "imageRecetteURL": "https://www.biotona.be/wp-content/uploads/blueberry-cheesecake-10bis_676ca63e98b4f2262904de90c98c3e2d_2000.jpg",
+            "description": "Un dessert américain crémeux surmonté d'une couche de myrtilles fraîches.",
+            "gastronomie": "Américaine",
+            "budget": 20,
+            "tempsPreparation": 240,
+            "ingredients": [
+            
+                {
+                "nom": "fromage frais type Philadelphia",
+                "imageURL": "https://www.ptitchef.com/imgupl/recipe/fromage-frais-maison-type-philadelphia-2-ingredients--459579p720672.jpg",
+                "quantite": 400,
+                "unite": "grammes",
+                "sante": "C"
+                }
+            , 
+                {
+                "nom": "biscuits Graham",
+                "imageURL": "https://francais.redpathsugar.com/sites/francais_redpathsugar_com/files/grahamcrackers_web-24.jpg",
+                "quantite": 200,
+                "unite": "grammes",
+                "sante": "C"
+                }
+            , 
+                {
+                "nom": "beurre fondu",
+                "imageURL": "https://assets.afcdn.com/recipe/20200911/114134_w300h300c1.jpg",
+                "quantite": 100,
+                "unite": "grammes",
+                "sante": "D"
+                }
+            , 
+                {
+                "nom": "sucre",
+                "imageURL": "https://www.sebacom.eu/wp-content/uploads/2023/06/journee-mondiale-du-diabete-cubes-sucre-dans-bol-verre-sol-sombre-1024x683.webp",
+                "quantite": 150,
+                "unite": "grammes",
+                "sante": "E"
+                }
+            , 
+                {
+                "nom": "myrtilles fraîches",
+                "imageURL": "https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_976,q_auto,w_1300/https://images-ca-1-0-1-eu.s3-eu-west-1.amazonaws.com/photos/original/1205/myrtilles-pixabay-bilberries-2559051_1280.jpg",
+                "quantite": 300,
+                "unite": "grammes",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "gélatine",
+                "imageURL": "https://m.media-amazon.com/images/I/61aBcys8VML.jpg",
+                "quantite": 5,
+                "unite": "feuilles",
+                "sante": "C"
+                }
+            
+            ],
+            "etapes": [
+            
+                "Mélanger les biscuits écrasés avec le beurre fondu et presser le mélange dans le fond d'un moule à charnière pour former la base."
+            , 
+                "Battre le fromage frais avec le sucre jusqu'à l'obtention d'une consistance lisse."
+            , 
+                "Faire fondre la gélatine préalablement ramollie dans de l'eau froide, puis l'incorporer au mélange de fromage frais."
+            , 
+                "Verser la préparation sur la base de biscuit et lisser la surface."
+            , 
+                "Réfrigérer pendant au moins 4 heures ou jusqu'à ce que le cheesecake soit ferme."
+            , 
+                "Avant de servir, décorer avec les myrtilles fraîches sur le dessus."
+            
+            ]
+            }
         
         ]
         }
