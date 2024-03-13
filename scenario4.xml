@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<categoriesRecettes>
+  <categorie nom="Americaine">
+    <recette>
+      <titre>Salade César</titre>
+      <description>Salade croquante avec poulet grillé, croûtons et sauce César !</description>
+      <budget>15</budget>
+      <tempsPreparation>25</tempsPreparation>
+    </recette>
+  </categorie>
+  <categorie nom="Fran&#xE7;aise">
+    <recette>
+      <titre>Ratatouille</titre>
+      <description>Mélange de légumes méditerranéens lentement mijotés !</description>
+      <budget>18</budget>
+      <tempsPreparation>60</tempsPreparation>
+    </recette>
+  </categorie>
+  <categorie nom="Indienne">
+    <recette>
+      <titre>Poulet au curry</titre>
+      <description>Poulet tendre dans une sauce curry onctueuse avec du riz !</description>
+      <budget>25</budget>
+      <tempsPreparation>45</tempsPreparation>
+    </recette>
+  </categorie>
+  <categorie nom="Italienne">
+    <recette>
+      <titre>Spaghetti Carbonara</titre>
+      <description>Spaghetti avec une sauce crémeuse au lard et au fromage !</description>
+      <budget>20</budget>
+      <tempsPreparation>30</tempsPreparation>
+    </recette>
+  </categorie>
+</categoriesRecettes>
