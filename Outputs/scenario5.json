@@ -44,6 +44,14 @@
                 }
             , 
                 {
+                "nom": "oignon",
+                "imageURL": "https://media.carrefour.fr/medias/5b35d48684b9300491973d9df3e26314/p_540x540/3000000041185-0.jpg",
+                "quantite": 1,
+                "unite": "unité",
+                "sante": "A"
+                }
+            , 
+                {
                 "nom": "huile d'olive",
                 "imageURL": "https://free-dom.fr/wp-content/uploads/2021/01/bienfaits-de-lhuile-dolive-768x512.jpg",
                 "quantite": 2,
@@ -188,6 +196,14 @@
                 "unite": "grammes",
                 "sante": "B"
                 }
+            , 
+                {
+                "nom": "huile d'olive",
+                "imageURL": "https://free-dom.fr/wp-content/uploads/2021/01/bienfaits-de-lhuile-dolive-768x512.jpg",
+                "quantite": 2,
+                "unite": "cuillères à soupe",
+                "sante": "A"
+                }
             
             ],
             "etapes": [
@@ -263,6 +279,14 @@
                 "unite": "unités",
                 "sante": "A"
                 }
+            , 
+                {
+                "nom": "huile d'olive",
+                "imageURL": "https://free-dom.fr/wp-content/uploads/2021/01/bienfaits-de-lhuile-dolive-768x512.jpg",
+                "quantite": 2,
+                "unite": "cuillères à soupe",
+                "sante": "A"
+                }
             
             ],
             "etapes": [
@@ -280,6 +304,547 @@
                 "Couvrir et laisser mijoter à feu doux pendant environ 30 minutes, en remuant de temps en temps."
             , 
                 "Ajuster l'assaisonnement au goût et servir chaud, soit comme plat principal, soit comme accompagnement."
+            
+            ]
+            }
+        , 
+            {
+            "titre": "Risotto aux Champignons",
+            "imageRecetteURL": "https://www.bonjourdarling.com/wp-content/uploads/2020/02/risotto_champignon-1600x1200.jpg",
+            "description": "Un risotto crémeux aux champignons, parfumé au vin blanc et au parmesan.",
+            "gastronomie": "Italienne",
+            "budget": 20,
+            "tempsPreparation": 45,
+            "ingredients": [
+            
+                {
+                "nom": "riz Arborio",
+                "imageURL": "https://daybyday-shop.com/wp-content/uploads/2019/11/13158-riz-arborio.jpg",
+                "quantite": 250,
+                "unite": "grammes",
+                "sante": "B"
+                }
+            , 
+                {
+                "nom": "champignons de Paris",
+                "imageURL": "https://lepotagerdelili.fr/wp-content/uploads/2021/12/champignon.jpg",
+                "quantite": 300,
+                "unite": "grammes",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "oignon",
+                "imageURL": "https://media.carrefour.fr/medias/5b35d48684b9300491973d9df3e26314/p_540x540/3000000041185-0.jpg",
+                "quantite": 1,
+                "unite": "unité",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "vin blanc sec",
+                "imageURL": "https://www.vinovalie-boutique.com/wp-content/uploads/2019/08/PASSION-BLANC.png",
+                "quantite": 100,
+                "unite": "millilitres",
+                "sante": "C"
+                }
+            , 
+                {
+                "nom": "bouillon de légumes",
+                "imageURL": "https://www.aux-fourneaux.fr/wp-content/uploads/2015/02/bouillon-de-legumes-maison-e1424085863240.jpg",
+                "quantite": 750,
+                "unite": "millilitres",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "parmesan râpé",
+                "imageURL": "https://static1.squarespace.com/static/5c41ee979d5abb9ac95e1230/5dc950ffc850db372781c171/61f3fd21841aae7d5e860592/1643380004181/parmesan_rape-le%2Bfromage.jpg?format=1500w",
+                "quantite": 50,
+                "unite": "grammes",
+                "sante": "B"
+                }
+            , 
+                {
+                "nom": "beurre",
+                "imageURL": "https://resize.elle.fr/original/var/plain_site/storage/images/elle-a-table/les-dossiers-de-la-redaction/news-de-la-redaction/bien-consommer-le-beurre-4144284/100148608-1-fre-FR/Bien-consommer-le-beurre-les-bons-gestes-et-erreurs-a-eviter-selon-une-nutritionniste.jpg",
+                "quantite": 30,
+                "unite": "grammes",
+                "sante": "D"
+                }
+            
+            ],
+            "etapes": [
+            
+                "Nettoyer et couper les champignons en tranches. Réserver."
+            , 
+                "Émincer finement l'oignon et faire revenir dans une grande casserole avec un peu de beurre jusqu'à ce qu'il soit translucide."
+            , 
+                "Ajouter le riz et le faire nacrer (rendre légèrement transparent) pendant environ 2 minutes."
+            , 
+                "Déglacer avec le vin blanc et laisser réduire."
+            , 
+                "Ajouter une louche de bouillon de légumes chaud et remuer jusqu'à absorption complète par le riz. Répéter l'opération jusqu'à ce que le riz soit al dente."
+            , 
+                "Parallèlement, faire sauter les champignons dans une poêle avec un peu de beurre jusqu'à ce qu'ils soient dorés."
+            , 
+                "Une fois le riz cuit, incorporer les champignons sautés et le parmesan râpé. Bien mélanger."
+            , 
+                "Ajuster l'assaisonnement avec du sel et du poivre. Servir chaud, garni d'un peu plus de parmesan et de persil frais si désiré."
+            
+            ]
+            }
+        , 
+            {
+            "titre": "Tajine de Poulet aux Olives et Citrons Confit",
+            "imageRecetteURL": "https://images.radio-canada.ca/v1/alimentation/recette/4x3/tajine-poulet-soulard.jpg",
+            "description": "Un plat marocain riche en saveurs, combinant la douceur des citrons confits avec la force des olives.",
+            "gastronomie": "Marocaine",
+            "budget": 22,
+            "tempsPreparation": 90,
+            "ingredients": [
+            
+                {
+                "nom": "cuisses de poulet",
+                "imageURL": "https://assets.afcdn.com/recipe/20170607/67722_origin.jpg",
+                "quantite": 4,
+                "unite": "unités",
+                "sante": "B"
+                }
+            , 
+                {
+                "nom": "olives vertes",
+                "imageURL": "https://www.barral.fr/wp-content/uploads/2019/01/olive-verte-denoyautee.jpg",
+                "quantite": 100,
+                "unite": "grammes",
+                "sante": "B"
+                }
+            , 
+                {
+                "nom": "citrons confits",
+                "imageURL": "https://www.aufouraumoulin.com/wp-content/uploads/2015/05/Citrons-confits-saumure.jpg",
+                "quantite": 2,
+                "unite": "unités",
+                "sante": "C"
+                }
+            , 
+                {
+                "nom": "oignon",
+                "imageURL": "https://media.carrefour.fr/medias/5b35d48684b9300491973d9df3e26314/p_540x540/3000000041185-0.jpg",
+                "quantite": 1,
+                "unite": "unité",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "coriandre fraîche",
+                "imageURL": "https://www.asianmarket.fr/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/4/8/4811.jpg",
+                "quantite": 20,
+                "unite": "grammes",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "safran",
+                "imageURL": "https://soriavie.fr/wp-content/uploads/safran.jpg",
+                "quantite": 1,
+                "unite": "pinch",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "cumin moulu",
+                "imageURL": "https://ileauxepices.com/879-large_default/cumin.jpg",
+                "quantite": 1,
+                "unite": "cuillère à café",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "huile d'olive",
+                "imageURL": "https://free-dom.fr/wp-content/uploads/2021/01/bienfaits-de-lhuile-dolive-768x512.jpg",
+                "quantite": 2,
+                "unite": "cuillères à soupe",
+                "sante": "A"
+                }
+            
+            ],
+            "etapes": [
+            
+                "Faire dorer les cuisses de poulet dans un tajine ou une grande casserole avec un peu d'huile d'olive."
+            , 
+                "Ajouter l'oignon émincé, le safran, le cumin, du sel et du poivre. Faire revenir jusqu'à ce que l'oignon soit tendre."
+            , 
+                "Couvrir le poulet d'eau, porter à ébullition, puis baisser le feu et laisser mijoter à couvert pendant environ 30 minutes."
+            , 
+                "Ajouter les olives et les citrons confits coupés en quartiers. Poursuivre la cuisson pendant 20 minutes."
+            , 
+                "Peu avant la fin de la cuisson, ajouter la coriandre fraîche hachée."
+            , 
+                "Vérifier l'assaisonnement et ajuster si nécessaire. Servir le tajine bien chaud, idéalement accompagné de semoule."
+            
+            ]
+            }
+        , 
+            {
+            "titre": "Gnocchis à la Sauce Gorgonzola et Noix",
+            "imageRecetteURL": "https://img-global.cpcdn.com/recipes/de728ea92c99ddb0/680x482cq70/gnocchis-maison-sauce-gorgonzola-mascarpone-et-noix-photo-principale-de-la-recette.jpg",
+            "description": "Des gnocchis tendres servis avec une sauce au fromage Gorgonzola crémeuse et garnis de noix croquantes.",
+            "gastronomie": "Italienne",
+            "budget": 20,
+            "tempsPreparation": 30,
+            "ingredients": [
+            
+                {
+                "nom": "gnocchis",
+                "imageURL": "https://iod.keplrstatic.com/api/ar_1.25,g_north,c_fill/ar_1.5,w_800,q_70,c_fill,f_auto,dpr_auto/mon_marche/GNOCCHIS_POMME_DE_TERRE_FRAICHE_400G.jpg",
+                "quantite": 500,
+                "unite": "grammes",
+                "sante": "B"
+                }
+            , 
+                {
+                "nom": "fromage Gorgonzola",
+                "imageURL": "https://www.gourmet-versand.com/img_article_v3/176688-gorgonzola-piccante-fromage-bleu-dop-palzola.jpg",
+                "quantite": 200,
+                "unite": "grammes",
+                "sante": "C"
+                }
+            , 
+                {
+                "nom": "crème fraîche",
+                "imageURL": "https://img-3.journaldesfemmes.fr/pUzNKw36E8HB2OKK7WZX4iuD-_U=/1500x/smart/023459ccd92e4d70b05f0bc82a6cf72d/ccmcms-jdf/24991222.jpg",
+                "quantite": 100,
+                "unite": "millilitres",
+                "sante": "D"
+                }
+            , 
+                {
+                "nom": "noix",
+                "imageURL": "https://www.magasinduchef.com/11221-large_default/cerneaux-de-noix-noble-1kg.jpg",
+                "quantite": 50,
+                "unite": "grammes",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "parmesan râpé",
+                "imageURL": "https://static1.squarespace.com/static/5c41ee979d5abb9ac95e1230/5dc950ffc850db372781c171/61f3fd21841aae7d5e860592/1643380004181/parmesan_rape-le%2Bfromage.jpg?format=1500w",
+                "quantite": 30,
+                "unite": "grammes",
+                "sante": "B"
+                }
+            , 
+                {
+                "nom": "sel et poivre noir",
+                "imageURL": "https://media3.coleandmason.fr/3218362-thickbox_default/coupelles-a-condiments-sel-et-poivre-avec-support.jpg",
+                "quantite": 2,
+                "unite": "pincés",
+                "sante": "A"
+                }
+            
+            ],
+            "etapes": [
+            
+                "Cuire les gnocchis dans de l'eau salée bouillante jusqu'à ce qu'ils remontent à la surface, puis égoutter."
+            , 
+                "Dans une casserole, faire fondre le Gorgonzola coupé en morceaux avec la crème fraîche à feu doux, en remuant jusqu'à obtenir une sauce lisse."
+            , 
+                "Assaisonner la sauce avec du sel et du poivre au goût."
+            , 
+                "Mélanger délicatement les gnocchis égouttés avec la sauce au Gorgonzola dans la casserole, jusqu'à ce que les gnocchis soient bien enrobés."
+            , 
+                "Servir les gnocchis nappés de sauce, saupoudrés de noix concassées et de parmesan râpé."
+            
+            ]
+            }
+        , 
+            {
+            "titre": "Saltimbocca alla Romana",
+            "imageRecetteURL": "https://blog.giallozafferano.it/dulcisinforno/wp-content/uploads/2022/06/Saltimbocca-alla-romana-9766.jpg",
+            "description": "Des escalopes de veau fines, garnies de jambon de Parme et de sauge, cuites dans du vin blanc.",
+            "gastronomie": "Italienne",
+            "budget": 25,
+            "tempsPreparation": 20,
+            "ingredients": [
+            
+                {
+                "nom": "escalopes de veau",
+                "imageURL": "https://maison-godet.fr/wp-content/uploads/escalope-de-veau.jpg",
+                "quantite": 4,
+                "unite": "unités",
+                "sante": "B"
+                }
+            , 
+                {
+                "nom": "jambon de Parme",
+                "imageURL": "https://d2x8t3l62uwvtb.cloudfront.net/624/conversions/72692-product-show.webp",
+                "quantite": 4,
+                "unite": "tranches",
+                "sante": "C"
+                }
+            , 
+                {
+                "nom": "feuilles de sauge fraîche",
+                "imageURL": "https://www.epices.com/img/cms/feuilles-de-sauge-fraiche.jpg",
+                "quantite": 8,
+                "unite": "unités",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "vin blanc sec",
+                "imageURL": "https://www.vinovalie-boutique.com/wp-content/uploads/2019/08/PASSION-BLANC.png",
+                "quantite": 100,
+                "unite": "millilitres",
+                "sante": "C"
+                }
+            , 
+                {
+                "nom": "beurre",
+                "imageURL": "https://resize.elle.fr/original/var/plain_site/storage/images/elle-a-table/les-dossiers-de-la-redaction/news-de-la-redaction/bien-consommer-le-beurre-4144284/100148608-1-fre-FR/Bien-consommer-le-beurre-les-bons-gestes-et-erreurs-a-eviter-selon-une-nutritionniste.jpg",
+                "quantite": 30,
+                "unite": "grammes",
+                "sante": "D"
+                }
+            , 
+                {
+                "nom": "huile d'olive",
+                "imageURL": "https://free-dom.fr/wp-content/uploads/2021/01/bienfaits-de-lhuile-dolive-768x512.jpg",
+                "quantite": 2,
+                "unite": "cuillères à soupe",
+                "sante": "A"
+                }
+            
+            ],
+            "etapes": [
+            
+                "Aplatir légèrement les escalopes de veau entre deux feuilles de film alimentaire."
+            , 
+                "Sur chaque escalope, disposer une tranche de jambon de Parme et deux feuilles de sauge. Fixer avec des cure-dents."
+            , 
+                "Chauffer un peu d'huile d'olive et du beurre dans une poêle. Faire dorer les escalopes de chaque côté."
+            , 
+                "Retirer les escalopes de la poêle et déglacer avec le vin blanc. Laisser réduire quelques minutes."
+            , 
+                "Remettre les escalopes dans la poêle avec la sauce pour les réchauffer."
+            , 
+                "Servir les saltimbocca nappés de la sauce au vin blanc et retirer les cure-dents avant de servir."
+            
+            ]
+            }
+        , 
+            {
+            "titre": "Panna Cotta aux Fruits Rouges",
+            "imageRecetteURL": "https://img.over-blog-kiwi.com/0/65/19/23/20200623/ob_5bde73_panna-cotta-legere-ww.jpg",
+            "description": "Un dessert italien à la texture douce et crémeuse, accompagné d'un coulis de fruits rouges acidulé.",
+            "gastronomie": "Italienne",
+            "budget": 15,
+            "tempsPreparation": 240,
+            "ingredients": [
+            
+                {
+                "nom": "crème liquide entière",
+                "imageURL": "https://producteurslaitiersducanada.ca/sites/default/files/image_file_browser/conso_recipe/creme-fraiche.jpg",
+                "quantite": 500,
+                "unite": "millilitres",
+                "sante": "D"
+                }
+            , 
+                {
+                "nom": "sucre en poudre",
+                "imageURL": "https://halalfs.com/2634-large_default/sucre-en-poudre-1kg.jpg",
+                "quantite": 100,
+                "unite": "grammes",
+                "sante": "E"
+                }
+            , 
+                {
+                "nom": "gélatine",
+                "imageURL": "https://m.media-amazon.com/images/I/61aBcys8VML.jpg",
+                "quantite": 3,
+                "unite": "feuilles",
+                "sante": "C"
+                }
+            , 
+                {
+                "nom": "vanille",
+                "imageURL": "https://sambavanilla.com/modules/prestablog/views/img/grid-for-1-7/up-img/admincrop_43.jpg?d0219e921501211a867e343e2bdcd418",
+                "quantite": 1,
+                "unite": "gousse",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "fruits rouges assortis",
+                "imageURL": "https://mapetiteassiette.com/wp-content/uploads/2022/06/Sans-titre-81.png",
+                "quantite": 250,
+                "unite": "grammes",
+                "sante": "A"
+                }
+            
+            ],
+            "etapes": [
+            
+                "Faire tremper les feuilles de gélatine dans un bol d'eau froide pour les ramollir."
+            , 
+                "Chauffer la crème liquide, le sucre et la gousse de vanille fendue en deux dans une casserole jusqu'à frémissement, puis retirer du feu."
+            , 
+                "Essorer la gélatine et l'incorporer à la crème chaude, remuer jusqu'à dissolution complète."
+            , 
+                "Verser la préparation dans des verrines et laisser refroidir à température ambiante, puis réfrigérer pendant au moins 4 heures."
+            , 
+                "Préparer un coulis avec une partie des fruits rouges en les mixant, et sucrer légèrement si nécessaire."
+            , 
+                "Avant de servir, napper chaque panna cotta du coulis de fruits rouges et décorer avec les fruits restants."
+            
+            ]
+            }
+        , 
+            {
+            "titre": "Coq au Vin",
+            "imageRecetteURL": "https://static01.nyt.com/images/2023/08/24/multimedia/MC-Coq-Au-Van-ctpm/MC-Coq-Au-Van-ctpm-superJumbo.jpg",
+            "description": "Un classique de la cuisine française, mariant le coq mijoté dans une sauce au vin rouge avec des champignons, des oignons perlés et des lardons.",
+            "gastronomie": "Française",
+            "budget": 30,
+            "tempsPreparation": 180,
+            "ingredients": [
+            
+                {
+                "nom": "coq ou poulet coupé en morceaux",
+                "imageURL": "https://static.thiriet.com/data/common_public/gallery_images/site/18756/18774/107741,decoupe_de_coq.jpg",
+                "quantite": 2,
+                "unite": "kilogrammes",
+                "sante": "B"
+                }
+            , 
+                {
+                "nom": "vin rouge corsé",
+                "imageURL": "https://www.lesvigneronsdefontes.com/455-large_default/prieure-saint-hippolyte-rouge.jpg",
+                "quantite": 750,
+                "unite": "millilitres",
+                "sante": "C"
+                }
+            , 
+                {
+                "nom": "lardons",
+                "imageURL": "https://iod.keplrstatic.com/api/ar_1,c_crop,g_north/c_fill,dpr_auto,f_auto,q_70,w_750/mon_marche/H626_Lardons_natures_BIO_200g.jpg",
+                "quantite": 100,
+                "unite": "grammes",
+                "sante": "D"
+                }
+            , 
+                {
+                "nom": "champignons de Paris",
+                "imageURL": "https://lepotagerdelili.fr/wp-content/uploads/2021/12/champignon.jpg",
+                "quantite": 250,
+                "unite": "grammes",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "oignons perlés",
+                "imageURL": "https://www.epicerie-ordinaire.fr/730-large_default/petits-oignons-blanc-120-g-edmond-fallot.jpg",
+                "quantite": 200,
+                "unite": "grammes",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "ail",
+                "imageURL": "https://mediaorigcdna.qooq.com/cache/201911.1/qooq/images/ingredients/zoom_4.jpg",
+                "quantite": 2,
+                "unite": "gousses",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "bouquet garni",
+                "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/07/Bouquet_garni_p1150476_extracted.jpg",
+                "quantite": 1,
+                "unite": "unité",
+                "sante": "A"
+                }
+            
+            ],
+            "etapes": [
+            
+                "Mariner les morceaux de coq dans le vin rouge avec l'ail et le bouquet garni pendant 12 heures."
+            , 
+                "Égoutter les morceaux de coq et les faire dorer dans une cocotte avec un peu d'huile. Réserver."
+            , 
+                "Faire revenir les lardons, les oignons perlés et les champignons dans la même cocotte."
+            , 
+                "Remettre le coq dans la cocotte, ajouter la marinade et porter à ébullition."
+            , 
+                "Couvrir et laisser mijoter à feu doux pendant environ 2 heures."
+            , 
+                "En fin de cuisson, ajuster l'assaisonnement et lier la sauce si nécessaire avec un peu de beurre manié."
+            , 
+                "Servir le coq au vin bien chaud, accompagné de pommes de terre vapeur ou de pâtes fraîches."
+            
+            ]
+            }
+        , 
+            {
+            "titre": "Tarte Tatin",
+            "imageRecetteURL": "https://assets.afcdn.com/recipe/20210203/117779_w1024h768c1cx1060cy707cxt0cyt0cxb2121cyb1414.webp",
+            "description": "Une délicieuse tarte aux pommes caramélisées, servie renversée, typique de la cuisine française.",
+            "gastronomie": "Française",
+            "budget": 12,
+            "tempsPreparation": 90,
+            "ingredients": [
+            
+                {
+                "nom": "pommes",
+                "imageURL": "https://www.foodette.fr/wp-content/uploads/2017/08/apple-417924_1920-compressor-1024x656.jpg",
+                "quantite": 6,
+                "unite": "unités",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "sucre en poudre",
+                "imageURL": "https://halalfs.com/2634-large_default/sucre-en-poudre-1kg.jpg",
+                "quantite": 150,
+                "unite": "grammes",
+                "sante": "E"
+                }
+            , 
+                {
+                "nom": "beurre",
+                "imageURL": "https://resize.elle.fr/original/var/plain_site/storage/images/elle-a-table/les-dossiers-de-la-redaction/news-de-la-redaction/bien-consommer-le-beurre-4144284/100148608-1-fre-FR/Bien-consommer-le-beurre-les-bons-gestes-et-erreurs-a-eviter-selon-une-nutritionniste.jpg",
+                "quantite": 80,
+                "unite": "grammes",
+                "sante": "D"
+                }
+            , 
+                {
+                "nom": "pâte brisée",
+                "imageURL": "https://www.undejeunerdesoleil.com/wp-content/uploads/2019/10/Reussir_pate_brisee_recettes_conseils.jpg",
+                "quantite": 1,
+                "unite": "rouleau",
+                "sante": "C"
+                }
+            
+            ],
+            "etapes": [
+            
+                "Préchauffer le four à 180°C (350°F)."
+            , 
+                "Peler, épépiner et couper les pommes en quartiers."
+            , 
+                "Dans une poêle allant au four, faire un caramel à sec avec le sucre, puis hors du feu, ajouter le beurre en morceaux."
+            , 
+                "Disposer les quartiers de pommes sur le caramel, bien serrés, et cuire à feu doux pendant environ 10 minutes."
+            , 
+                "Recouvrir les pommes avec la pâte brisée, en rentrant bien les bords à l'intérieur de la poêle."
+            , 
+                "Enfourner pour environ 25 minutes, ou jusqu'à ce que la pâte soit dorée."
+            , 
+                "Laisser tiédir quelques minutes, puis retourner délicatement la tarte sur un plat de service."
+            , 
+                "Servir tiède ou à température ambiante, éventuellement accompagnée de crème fraîche ou de glace à la vanille."
             
             ]
             }
