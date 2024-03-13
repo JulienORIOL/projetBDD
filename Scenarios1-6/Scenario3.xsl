@@ -6,7 +6,7 @@
         <html>
             <head>
                 <title>Suivi des Commandes</title>
-                <link rel="stylesheet" type="text/css" href="scenario3.css"/>
+                <link rel="stylesheet" type="text/css" href="../Stylesheets/scenario3.css"/>
             </head>
             <body>
                 <h1>Liste des Commandes</h1>

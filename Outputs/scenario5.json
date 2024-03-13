@@ -1,0 +1,289 @@
+
+        {
+        "recettes": [
+        
+            {
+            "titre": "Poulet au curry",
+            "imageRecetteURL": "https://static.750g.com/images/1200-675/91ab938d758f762c1f3f84286b121e53/adobestock-307737508.jpeg",
+            "description": "Poulet tendre dans une sauce curry onctueuse avec du riz !",
+            "gastronomie": "Indienne",
+            "budget": 25,
+            "tempsPreparation": 45,
+            "ingredients": [
+            
+                {
+                "nom": "poulet",
+                "imageURL": "https://cdn02.plentymarkets.com/xlzn8fmweulj/item/images/11268/full/11268-Haehnchen-roh-Lebensmittel-Attrappe-23-cm-11268-Haehnchen-roh-20x16x10cm-641-388-00-1-0-02.png",
+                "quantite": 400,
+                "unite": "grammes",
+                "sante": "B"
+                }
+            , 
+                {
+                "nom": "pâte de curry",
+                "imageURL": "https://thegreenquest.org/fr/wp-content/uploads/sites/2/2020/04/Cauliflower-curry-6-of-7-500x500.jpg",
+                "quantite": 3,
+                "unite": "cuillères à soupe",
+                "sante": "C"
+                }
+            , 
+                {
+                "nom": "crème de coco",
+                "imageURL": "https://www.jevtobond.com/wp-content/uploads/2016/06/meilleur-lait-creme-coco-cuisine-thai.jpg",
+                "quantite": 200,
+                "unite": "millilitres",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "riz basmati",
+                "imageURL": "https://www.papillesetpupilles.fr/wp-content/uploads/2016/03/Riz-basmati-©-teleginatania-shutterstock.jpg",
+                "quantite": 300,
+                "unite": "grammes",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "huile d'olive",
+                "imageURL": "https://free-dom.fr/wp-content/uploads/2021/01/bienfaits-de-lhuile-dolive-768x512.jpg",
+                "quantite": 2,
+                "unite": "cuillères à soupe",
+                "sante": "A"
+                }
+            
+            ],
+            "etapes": [
+            
+                "Chauffer l'huile dans une poêle à feu moyen."
+            , 
+                "Faire revenir le poulet jusqu'à ce qu'il soit doré de tous les côtés."
+            , 
+                "Retirer le poulet et faire revenir les oignons émincés jusqu'à ce qu'ils soient tendres."
+            , 
+                "Ajouter la pâte de curry et laisser cuire pendant une minute."
+            , 
+                "Remettre le poulet dans la poêle, ajouter la crème de coco et porter à ébullition."
+            , 
+                "Réduire le feu et laisser mijoter jusqu'à ce que le poulet soit cuit."
+            , 
+                "Cuire le riz basmati selon les instructions du paquet."
+            , 
+                "Servir le poulet au curry sur un lit de riz basmati."
+            
+            ]
+            }
+        , 
+            {
+            "titre": "Spaghetti Carbonara",
+            "imageRecetteURL": "https://i.notrefamille.com/1400x787/smart/2020/11/26/52098-large.jpg",
+            "description": "Spaghetti avec une sauce crémeuse au lard et au fromage !",
+            "gastronomie": "Italienne",
+            "budget": 20,
+            "tempsPreparation": 30,
+            "ingredients": [
+            
+                {
+                "nom": "spaghetti",
+                "imageURL": "https://us.123rf.com/450wm/pioneer111/pioneer1111502/pioneer111150200018/36467938-spaghetti-cru-isolé-sur-fond-blanc.jpg",
+                "quantite": 500,
+                "unite": "grammes",
+                "sante": "B"
+                }
+            , 
+                {
+                "nom": "lardons",
+                "imageURL": "https://iod.keplrstatic.com/api/ar_1,c_crop,g_north/c_fill,dpr_auto,f_auto,q_70,w_750/mon_marche/H626_Lardons_natures_BIO_200g.jpg",
+                "quantite": 150,
+                "unite": "grammes",
+                "sante": "D"
+                }
+            , 
+                {
+                "nom": "œufs",
+                "imageURL": "https://www.framboizeinthekitchen.com/wp-content/uploads/2018/04/oeufs.jpg",
+                "quantite": 4,
+                "unite": "unités",
+                "sante": "B"
+                }
+            , 
+                {
+                "nom": "fromage Parmesan râpé",
+                "imageURL": "https://static1.squarespace.com/static/5c41ee979d5abb9ac95e1230/5dc950ffc850db372781c171/61f3fd21841aae7d5e860592/1643380004181/parmesan_rape-le%2Bfromage.jpg?format=1500w",
+                "quantite": 100,
+                "unite": "grammes",
+                "sante": "C"
+                }
+            , 
+                {
+                "nom": "gousse d'ail",
+                "imageURL": "https://mediaorigcdna.qooq.com/cache/201911.1/qooq/images/ingredients/zoom_4.jpg",
+                "quantite": 1,
+                "unite": "unité",
+                "sante": "A"
+                }
+            
+            ],
+            "etapes": [
+            
+                "Cuire les spaghetti dans de l'eau salée jusqu'à ce qu'ils soient al dente."
+            , 
+                "Faire revenir les lardons dans une poêle sans ajouter de matière grasse. Ajouter la gousse d'ail écrasée pour plus de saveur."
+            , 
+                "Dans un bol, battre les œufs et ajouter le Parmesan râpé. Assaisonner avec du sel et du poivre noir au goût."
+            , 
+                "Une fois les spaghetti cuits, les égoutter et les remettre dans la casserole. Retirer la poêle du feu et ajouter les spaghetti aux lardons."
+            , 
+                "Verser rapidement le mélange d'œufs et de fromage sur les spaghetti tout en mélangeant énergiquement pour que les œufs ne cuisent pas en omelette."
+            , 
+                "Servir immédiatement, garni de Parmesan supplémentaire et d'un tour de moulin à poivre."
+            
+            ]
+            }
+        , 
+            {
+            "titre": "Salade César",
+            "imageRecetteURL": "https://www.adeline-cuisine.fr/wp-content/uploads/2016/07/salade-cesar-recette-sauce-caesar-salad.jpg",
+            "description": "Salade croquante avec poulet grillé, croûtons et sauce César.",
+            "gastronomie": "Americaine",
+            "budget": 15,
+            "tempsPreparation": 25,
+            "ingredients": [
+            
+                {
+                "nom": "laitue romaine",
+                "imageURL": "https://www.roseedeschamps.fr/wp-content/uploads/2021/05/LAITUE.jpg",
+                "quantite": 1,
+                "unite": "unité",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "blanc de poulet",
+                "imageURL": "https://resize-gulli.jnsmedia.fr/rcrop/584,326,smartcrop,center-top/img//var/jeunesse/storage/images/gulli/activites/cuisine/plats/blanc-de-poulet-a-la-cannelle/19843314-1-fre-FR/Blanc-de-poulet-a-la-cannelle.jpg",
+                "quantite": 200,
+                "unite": "grammes",
+                "sante": "B"
+                }
+            , 
+                {
+                "nom": "sauce César",
+                "imageURL": "https://www.soreal.fr/images/medias/recettes_sauce-caesar-384x3404x.jpg",
+                "quantite": 50,
+                "unite": "millilitres",
+                "sante": "C"
+                }
+            , 
+                {
+                "nom": "croûtons",
+                "imageURL": "https://littlesunnykitchen.com/wp-content/uploads/2021/12/Air-Fryer-Croutons-Recipe-1.jpg",
+                "quantite": 50,
+                "unite": "grammes",
+                "sante": "B"
+                }
+            , 
+                {
+                "nom": "parmesan râpé",
+                "imageURL": "https://static1.squarespace.com/static/5c41ee979d5abb9ac95e1230/5dc950ffc850db372781c171/61f3fd21841aae7d5e860592/1643380004181/parmesan_rape-le%2Bfromage.jpg?format=1500w",
+                "quantite": 30,
+                "unite": "grammes",
+                "sante": "B"
+                }
+            
+            ],
+            "etapes": [
+            
+                "Laver et hacher la laitue romaine, puis la placer dans un grand saladier."
+            , 
+                "Saisir les blancs de poulet dans une poêle avec un peu d'huile d'olive jusqu'à ce qu'ils soient bien dorés et cuits à cœur. Laisser refroidir puis couper en tranches fines."
+            , 
+                "Ajouter le poulet tranché sur la laitue."
+            , 
+                "Saupoudrer les croûtons et le parmesan râpé sur la salade."
+            , 
+                "Arroser la salade de sauce César, puis mélanger délicatement pour bien enrober tous les ingrédients."
+            , 
+                "Servir immédiatement."
+            
+            ]
+            }
+        , 
+            {
+            "titre": "Ratatouille",
+            "imageRecetteURL": "https://images.radio-canada.ca/v1/alimentation/recette/16x9/ratatouille-italienne-ciammotta.jpg",
+            "description": "Mélange de légumes méditerranéens lentement mijotés.",
+            "gastronomie": "Française",
+            "budget": 18,
+            "tempsPreparation": 60,
+            "ingredients": [
+            
+                {
+                "nom": "courgette",
+                "imageURL": "https://www.jaimefruitsetlegumes.ca/wp-content/uploads/2019/09/courgette-scaled-e1639688670152.jpg",
+                "quantite": 2,
+                "unite": "unités",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "aubergine",
+                "imageURL": "https://mapetiteassiette.com/wp-content/uploads/2020/07/aubergine.jpg",
+                "quantite": 1,
+                "unite": "unité",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "tomate",
+                "imageURL": "https://www.roseedeschamps.fr/wp-content/uploads/2019/01/tomate.jpg",
+                "quantite": 4,
+                "unite": "unités",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "poivron rouge",
+                "imageURL": "https://www.croissy-fruits.fr/photos/pgiArticle/42-3/poivron-rouge-1604925597.jpg",
+                "quantite": 1,
+                "unite": "unité",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "oignon jaune",
+                "imageURL": "https://media.carrefour.fr/medias/5b35d48684b9300491973d9df3e26314/p_540x540/3000000041185-0.jpg",
+                "quantite": 1,
+                "unite": "unité",
+                "sante": "A"
+                }
+            , 
+                {
+                "nom": "gousse d'ail",
+                "imageURL": "https://mediaorigcdna.qooq.com/cache/201911.1/qooq/images/ingredients/zoom_4.jpg",
+                "quantite": 2,
+                "unite": "unités",
+                "sante": "A"
+                }
+            
+            ],
+            "etapes": [
+            
+                "Laver et couper tous les légumes en morceaux de taille égale."
+            , 
+                "Faire revenir l'oignon et l'ail émincés dans de l'huile d'olive jusqu'à ce qu'ils soient transparents."
+            , 
+                "Ajouter les poivrons et faire revenir pendant quelques minutes."
+            , 
+                "Incorporer les aubergines et les courgettes, et faire revenir jusqu'à ce qu'elles commencent à ramollir."
+            , 
+                "Ajouter les tomates coupées en dés, assaisonner de sel, de poivre et d'herbes de Provence."
+            , 
+                "Couvrir et laisser mijoter à feu doux pendant environ 30 minutes, en remuant de temps en temps."
+            , 
+                "Ajuster l'assaisonnement au goût et servir chaud, soit comme plat principal, soit comme accompagnement."
+            
+            ]
+            }
+        
+        ]
+        }
+    
