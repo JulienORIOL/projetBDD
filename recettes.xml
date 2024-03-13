@@ -246,12 +246,14 @@
     <!-- On définit des menus que nos clients vont pouvoir commander -->
     <menu id="menu1">
         <semaine>16</semaine>
-        <recetteRef>recette_poulet_curry recette_salade_césar</recetteRef>
+        <recetteRef>recette_poulet_curry</recetteRef>
+        <recetteRef>recette_salade_césar</recetteRef>
     </menu>
 
     <menu id="menu2">
         <semaine>17</semaine>
-        <recetteRef>recette_spaghetti_carbonara recette_ratatouille</recetteRef>
+        <recetteRef>recette_spaghetti_carbonara</recetteRef>
+        <recetteRef>recette_ratatouille</recetteRef>
     </menu>
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
@@ -262,6 +264,14 @@
         <menuRef>menu1</menuRef>
         <dateCommande>2024-03-08</dateCommande>
         <status>Livrée</status>
+    </commande>
+
+    <commande>
+        <clientRef>client1</clientRef>
+        <livreurRef>livreur1</livreurRef>
+        <menuRef>menu1</menuRef>
+        <dateCommande>2024-03-10</dateCommande>
+        <status>En cours de livraison</status>
     </commande>
 
     <commande>
