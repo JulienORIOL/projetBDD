@@ -17,6 +17,42 @@
         <adresseLivraison>78 boulevard de Belleville, 75020 Paris</adresseLivraison>
     </client>
 
+    <client id="client4">
+        <nom>Lucas Moreau</nom>
+        <adresseLivraison>25 rue de la Paix, 44000 Nantes</adresseLivraison>
+    </client>
+    
+    <client id="client5">
+        <nom>Emma Petit</nom>
+        <adresseLivraison>3 impasse des Lilas, 67000 Strasbourg</adresseLivraison>
+    </client>
+    
+    <client id="client6">
+        <nom>Hugo Bernard</nom>
+        <adresseLivraison>58 avenue Jean Jaurès, 69007 Lyon</adresseLivraison>
+    </client>
+
+    <client id="client7">
+        <nom>Emma Lefèvre</nom>
+        <adresseLivraison>25 avenue Victor Hugo, 75116 Paris</adresseLivraison>
+    </client>
+    
+    <client id="client8">
+        <nom>Olivier Girard</nom>
+        <adresseLivraison>8 rue de la Paix, 75002 Paris</adresseLivraison>
+    </client>
+    
+    <client id="client9">
+        <nom>Chloé Moreau</nom>
+        <adresseLivraison>47 boulevard Saint-Michel, 75005 Paris</adresseLivraison>
+    </client>
+    
+    <client id="client10">
+        <nom>Alexandre Dupont</nom>
+        <adresseLivraison>118 rue du Faubourg Saint-Honoré, 75008 Paris</adresseLivraison>
+    </client>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
     <!-- On définit des livreurs qui vont pouvoir livrer nos clients qui ont passé commande -->
     <livreur id="livreur1">
         <nom>Thomas Lefebvre</nom>
@@ -25,6 +61,26 @@
 
     <livreur id="livreur2">
         <nom>Hugo Dupont</nom>
+        <entreprise>Deliveroo</entreprise>
+    </livreur>
+
+    <livreur id="livreur3">
+        <nom>Amélie Fontaine</nom>
+        <entreprise>ExpressDelivery</entreprise>
+    </livreur>
+    
+    <livreur id="livreur4">
+        <nom>François Dubois</nom>
+        <entreprise>ExpressDelivery</entreprise>
+    </livreur>
+
+    <livreur id="livreur5">
+        <nom>Lucie Mercier</nom>
+        <entreprise>FastTrackDelivery</entreprise>
+    </livreur>
+    
+    <livreur id="livreur6">
+        <nom>David Leroy</nom>
         <entreprise>Deliveroo</entreprise>
     </livreur>
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -671,22 +727,95 @@
         <etapes>Laisser tiédir quelques minutes, puis retourner délicatement la tarte sur un plat de service.</etapes>
         <etapes>Servir tiède ou à température ambiante, éventuellement accompagnée de crème fraîche ou de glace à la vanille.</etapes>
     </recette>
-      
-      
+
+    <recette id="recette_cheesecake_myrtilles">
+        <titre>Cheesecake aux Myrtilles</titre>
+        <imageRecetteURL>https://www.biotona.be/wp-content/uploads/blueberry-cheesecake-10bis_676ca63e98b4f2262904de90c98c3e2d_2000.jpg</imageRecetteURL>
+        <description>Un dessert américain crémeux surmonté d'une couche de myrtilles fraîches.</description>
+        <gastronomie>Américaine</gastronomie>
+        <budget>20</budget>
+        <tempsPreparation>240</tempsPreparation>
+        <ingredients>
+            <nom>fromage frais type Philadelphia</nom>
+            <imageURL>https://www.ptitchef.com/imgupl/recipe/fromage-frais-maison-type-philadelphia-2-ingredients--459579p720672.jpg</imageURL>
+            <quantite>400</quantite>
+            <unite>grammes</unite>
+            <sante>C</sante>
+        </ingredients>
+        <ingredients>
+            <nom>biscuits Graham</nom>
+            <imageURL>https://francais.redpathsugar.com/sites/francais_redpathsugar_com/files/grahamcrackers_web-24.jpg</imageURL>
+            <quantite>200</quantite>
+            <unite>grammes</unite>
+            <sante>C</sante>
+        </ingredients>
+        <ingredients>
+            <nom>beurre fondu</nom>
+            <imageURL>https://assets.afcdn.com/recipe/20200911/114134_w300h300c1.jpg</imageURL>
+            <quantite>100</quantite>
+            <unite>grammes</unite>
+            <sante>D</sante>
+        </ingredients>
+        <ingredients>
+            <nom>sucre</nom>
+            <imageURL>https://www.sebacom.eu/wp-content/uploads/2023/06/journee-mondiale-du-diabete-cubes-sucre-dans-bol-verre-sol-sombre-1024x683.webp</imageURL>
+            <quantite>150</quantite>
+            <unite>grammes</unite>
+            <sante>E</sante>
+        </ingredients>
+        <ingredients>
+            <nom>myrtilles fraîches</nom>
+            <imageURL>https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_976,q_auto,w_1300/https://images-ca-1-0-1-eu.s3-eu-west-1.amazonaws.com/photos/original/1205/myrtilles-pixabay-bilberries-2559051_1280.jpg</imageURL>
+            <quantite>300</quantite>
+            <unite>grammes</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>gélatine</nom>
+            <imageURL>https://m.media-amazon.com/images/I/61aBcys8VML.jpg</imageURL>
+            <quantite>5</quantite>
+            <unite>feuilles</unite>
+            <sante>C</sante>
+        </ingredients>
+        <etapes>Mélanger les biscuits écrasés avec le beurre fondu et presser le mélange dans le fond d'un moule à charnière pour former la base.</etapes>
+        <etapes>Battre le fromage frais avec le sucre jusqu'à l'obtention d'une consistance lisse.</etapes>
+        <etapes>Faire fondre la gélatine préalablement ramollie dans de l'eau froide, puis l'incorporer au mélange de fromage frais.</etapes>
+        <etapes>Verser la préparation sur la base de biscuit et lisser la surface.</etapes>
+        <etapes>Réfrigérer pendant au moins 4 heures ou jusqu'à ce que le cheesecake soit ferme.</etapes>
+        <etapes>Avant de servir, décorer avec les myrtilles fraîches sur le dessus.</etapes>
+    </recette>
+    
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
     <!-- On définit des menus que nos clients vont pouvoir commander -->
     <menu id="menu1">
-        <semaine>16</semaine>
+        <semaine>18</semaine>
         <recetteRef>recette_poulet_curry</recetteRef>
         <recetteRef>recette_salade_césar</recetteRef>
+        <recetteRef>recette_panna_cotta</recetteRef>
     </menu>
-
+    
     <menu id="menu2">
-        <semaine>17</semaine>
+        <semaine>19</semaine>
         <recetteRef>recette_spaghetti_carbonara</recetteRef>
-        <recetteRef>recette_ratatouille</recetteRef>
+        <recetteRef>recette_risotto_champignons</recetteRef>
+        <recetteRef>recette_tarte_tatin</recetteRef>
     </menu>
+    
+    <menu id="menu3">
+        <semaine>20</semaine>
+        <recetteRef>recette_ratatouille</recetteRef>
+        <recetteRef>recette_gnocchis_gorgonzola</recetteRef>
+        <recetteRef>recette_coq_au_vin</recetteRef>
+    </menu>
+    
+    <menu id="menu4">
+        <semaine>21</semaine>
+        <recetteRef>recette_tajine_poulet</recetteRef>
+        <recetteRef>recette_saltimbocca</recetteRef>
+        <recetteRef>recette_cheesecake_myrtilles</recetteRef>
+    </menu>
+    
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
     <!-- On définit des commandes que nos clients ont pu passer auprès de notre entreprise -->
@@ -721,6 +850,134 @@
         <dateCommande>2024-03-12</dateCommande>
         <status>En préparation</status>
     </commande>
+
+    <commande>
+        <clientRef>client4</clientRef>
+        <livreurRef>livreur3</livreurRef>
+        <menuRef>menu2</menuRef>
+        <dateCommande>2024-03-15</dateCommande>
+        <status>En préparation</status>
+    </commande>
+    
+    <commande>
+        <clientRef>client5</clientRef>
+        <livreurRef>livreur4</livreurRef>
+        <menuRef>menu3</menuRef>
+        <dateCommande>2024-03-16</dateCommande>
+        <status>En cours de livraison</status>
+    </commande>
+    
+    <commande>
+        <clientRef>client6</clientRef>
+        <livreurRef>livreur5</livreurRef>
+        <menuRef>menu4</menuRef>
+        <dateCommande>2024-03-17</dateCommande>
+        <status>Livrée</status>
+    </commande>
+    
+    <commande>
+        <clientRef>client7</clientRef>
+        <livreurRef>livreur6</livreurRef>
+        <menuRef>menu1</menuRef>
+        <dateCommande>2024-03-17</dateCommande>
+        <status>En attente</status>
+    </commande>
+    
+    <commande>
+        <clientRef>client8</clientRef>
+        <livreurRef>livreur1</livreurRef>
+        <menuRef>menu2</menuRef>
+        <dateCommande>2024-03-19</dateCommande>
+        <status>En préparation</status>
+    </commande>
+    
+    <commande>
+        <clientRef>client9</clientRef>
+        <livreurRef>livreur2</livreurRef>
+        <menuRef>menu3</menuRef>
+        <dateCommande>2024-03-20</dateCommande>
+        <status>En cours de livraison</status>
+    </commande>
+    
+    <commande>
+        <clientRef>client10</clientRef>
+        <livreurRef>livreur3</livreurRef>
+        <menuRef>menu4</menuRef>
+        <dateCommande>2024-03-20</dateCommande>
+        <status>Livrée</status>
+    </commande>
+    
+    <commande>
+        <clientRef>client1</clientRef>
+        <livreurRef>livreur4</livreurRef>
+        <menuRef>menu1</menuRef>
+        <dateCommande>2024-03-22</dateCommande>
+        <status>En attente</status>
+    </commande>
+    
+    <commande>
+        <clientRef>client2</clientRef>
+        <livreurRef>livreur5</livreurRef>
+        <menuRef>menu2</menuRef>
+        <dateCommande>2024-03-22</dateCommande>
+        <status>En préparation</status>
+    </commande>
+    
+    <commande>
+        <clientRef>client3</clientRef>
+        <livreurRef>livreur6</livreurRef>
+        <menuRef>menu3</menuRef>
+        <dateCommande>2024-03-22</dateCommande>
+        <status>En cours de livraison</status>
+    </commande>
+    
+    <commande>
+        <clientRef>client4</clientRef>
+        <livreurRef>livreur1</livreurRef>
+        <menuRef>menu4</menuRef>
+        <dateCommande>2024-03-25</dateCommande>
+        <status>Livrée</status>
+    </commande>
+    
+    <commande>
+        <clientRef>client5</clientRef>
+        <livreurRef>livreur2</livreurRef>
+        <menuRef>menu1</menuRef>
+        <dateCommande>2024-03-26</dateCommande>
+        <status>En attente</status>
+    </commande>
+    
+    <commande>
+        <clientRef>client6</clientRef>
+        <livreurRef>livreur3</livreurRef>
+        <menuRef>menu2</menuRef>
+        <dateCommande>2024-03-27</dateCommande>
+        <status>En préparation</status>
+    </commande>
+    
+    <commande>
+        <clientRef>client7</clientRef>
+        <livreurRef>livreur4</livreurRef>
+        <menuRef>menu3</menuRef>
+        <dateCommande>2024-03-28</dateCommande>
+        <status>En cours de livraison</status>
+    </commande>
+    
+    <commande>
+        <clientRef>client8</clientRef>
+        <livreurRef>livreur5</livreurRef>
+        <menuRef>menu4</menuRef>
+        <dateCommande>2024-03-29</dateCommande>
+        <status>Livrée</status>
+    </commande>
+    
+    <commande>
+        <clientRef>client2</clientRef>
+        <livreurRef>livreur3</livreurRef>
+        <menuRef>menu4</menuRef>
+        <dateCommande>2024-03-29</dateCommande>
+        <status>Livrée</status>
+    </commande>
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
     <!-- On définit les avis que les clients ont pu laisser sur notre entreprise -->
@@ -737,5 +994,62 @@
         <contenu>Bon plats dans l'ensemble mais il manque en quantité</contenu>
         <note>3</note>
     </commentaire>
+
+    <commentaire>
+        <auteur>Isabelle Moretti</auteur>
+        <date>2024-03-01</date>
+        <contenu>La qualité des ingrédients est top. Mon menu était délicieux, et la livraison très ponctuelle.</contenu>
+        <note>4</note>
+    </commentaire>
+    
+    <commentaire>
+        <auteur>Maxime Leroi</auteur>
+        <date>2024-03-03</date>
+        <contenu>Impressionné par la diversité des menus proposés. J'ai beaucoup apprécié le menu végétarien.</contenu>
+        <note>5</note>
+    </commentaire>
+    
+    <commentaire>
+        <auteur>Clara Dubois</auteur>
+        <date>2024-03-04</date>
+        <contenu>Le cheesecake aux myrtilles était divin ! Un vrai régal pour les papilles.</contenu>
+        <note>5</note>
+    </commentaire>
+    
+    <commentaire>
+        <auteur>Lucas Martin</auteur>
+        <date>2024-03-06</date>
+        <contenu>Bon service, mais la ratatouille manquait un peu de saveur à mon goût.</contenu>
+        <note>3</note>
+    </commentaire>
+    
+    <commentaire>
+        <auteur>Charlotte Renaud</auteur>
+        <date>2024-03-08</date>
+        <contenu>J'adore le concept, mais la livraison a pris plus de temps que prévu.</contenu>
+        <note>3</note>
+    </commentaire>
+    
+    <commentaire>
+        <auteur>Théo Dupont</auteur>
+        <date>2024-03-10</date>
+        <contenu>Les gnocchis au gorgonzola étaient exceptionnels ! Je recommande fortement.</contenu>
+        <note>5</note>
+    </commentaire>
+    
+    <commentaire>
+        <auteur>Julie Lambert</auteur>
+        <date>2024-03-12</date>
+        <contenu>Service impeccable et plats délicieux, je suis très satisfaite de ma commande.</contenu>
+        <note>4</note>
+    </commentaire>
+    
+    <commentaire>
+        <auteur>Vincent Leblanc</auteur>
+        <date>2024-03-14</date>
+        <contenu>Le coq au vin était un peu trop salé à mon goût, mais le reste du menu était parfait.</contenu>
+        <note>4</note>
+    </commentaire>
+    
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 </boiteRecettes>
