@@ -3,7 +3,7 @@
   <categorie nom="Americaine">
     <recette>
       <titre>Salade César</titre>
-      <description>Salade croquante avec poulet grillé, croûtons et sauce César !</description>
+      <description>Salade croquante avec poulet grillé, croûtons et sauce César.</description>
       <budget>15</budget>
       <tempsPreparation>25</tempsPreparation>
     </recette>
@@ -11,7 +11,7 @@
   <categorie nom="Fran&#xE7;aise">
     <recette>
       <titre>Ratatouille</titre>
-      <description>Mélange de légumes méditerranéens lentement mijotés !</description>
+      <description>Mélange de légumes méditerranéens lentement mijotés.</description>
       <budget>18</budget>
       <tempsPreparation>60</tempsPreparation>
     </recette>

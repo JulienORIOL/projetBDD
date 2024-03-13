@@ -18,14 +18,14 @@
         , 
             {
             "titre": "Salade César",
-            "description": "Salade croquante avec poulet grillé, croûtons et sauce César !",
+            "description": "Salade croquante avec poulet grillé, croûtons et sauce César.",
             "gastronomie": "Americaine",
             "budget": 15
             }
         , 
             {
             "titre": "Ratatouille",
-            "description": "Mélange de légumes méditerranéens lentement mijotés !",
+            "description": "Mélange de légumes méditerranéens lentement mijotés.",
             "gastronomie": "Française",
             "budget": 18
             }
