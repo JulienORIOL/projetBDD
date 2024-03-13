@@ -63,10 +63,9 @@ for recette in recettes:
 # Afficher les recettes classées par catégorie pour le budget et le temps de préparation
 if mode_tri in ["budget", "tempsPreparation"]:
     for categorie, recettes_list in categories.items():
-        # Sauter l'affichage des catégories vides
         if not recettes_list:
             continue
         print(f"Budget {categorie}:" if mode_tri == "budget" else f"Temps de préparation {categorie}:")
         for recette in recettes_list:
             print(f" - {recette['titre']}")
-        print()  # Saut de ligne pour séparer les catégories
+        print()
