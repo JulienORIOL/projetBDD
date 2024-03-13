@@ -66,6 +66,13 @@
             <sante>A</sante>
         </ingredients>
         <ingredients>
+            <nom>oignon</nom>
+            <imageURL>https://media.carrefour.fr/medias/5b35d48684b9300491973d9df3e26314/p_540x540/3000000041185-0.jpg</imageURL>
+            <quantite>1</quantite>
+            <unite>unité</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
             <nom>huile d'olive</nom>
             <imageURL>https://free-dom.fr/wp-content/uploads/2021/01/bienfaits-de-lhuile-dolive-768x512.jpg</imageURL>
             <quantite>2</quantite>
@@ -174,6 +181,13 @@
             <unite>grammes</unite>
             <sante>B</sante>
         </ingredients>
+        <ingredients>
+            <nom>huile d'olive</nom>
+            <imageURL>https://free-dom.fr/wp-content/uploads/2021/01/bienfaits-de-lhuile-dolive-768x512.jpg</imageURL>
+            <quantite>2</quantite>
+            <unite>cuillères à soupe</unite>
+            <sante>A</sante>
+        </ingredients>
         <etapes>Laver et hacher la laitue romaine, puis la placer dans un grand saladier.</etapes>
         <etapes>Saisir les blancs de poulet dans une poêle avec un peu d'huile d'olive jusqu'à ce qu'ils soient bien dorés et cuits à cœur. Laisser refroidir puis couper en tranches fines.</etapes>
         <etapes>Ajouter le poulet tranché sur la laitue.</etapes>
@@ -232,6 +246,13 @@
             <unite>unités</unite>
             <sante>A</sante>
         </ingredients>
+        <ingredients>
+            <nom>huile d'olive</nom>
+            <imageURL>https://free-dom.fr/wp-content/uploads/2021/01/bienfaits-de-lhuile-dolive-768x512.jpg</imageURL>
+            <quantite>2</quantite>
+            <unite>cuillères à soupe</unite>
+            <sante>A</sante>
+        </ingredients>
         <etapes>Laver et couper tous les légumes en morceaux de taille égale.</etapes>
         <etapes>Faire revenir l'oignon et l'ail émincés dans de l'huile d'olive jusqu'à ce qu'ils soient transparents.</etapes>
         <etapes>Ajouter les poivrons et faire revenir pendant quelques minutes.</etapes>
@@ -240,6 +261,417 @@
         <etapes>Couvrir et laisser mijoter à feu doux pendant environ 30 minutes, en remuant de temps en temps.</etapes>
         <etapes>Ajuster l'assaisonnement au goût et servir chaud, soit comme plat principal, soit comme accompagnement.</etapes>
     </recette>
+
+    <recette id="recette_risotto_champignons">
+        <titre>Risotto aux Champignons</titre>
+        <imageRecetteURL>https://www.bonjourdarling.com/wp-content/uploads/2020/02/risotto_champignon-1600x1200.jpg</imageRecetteURL>
+        <description>Un risotto crémeux aux champignons, parfumé au vin blanc et au parmesan.</description>
+        <gastronomie>Italienne</gastronomie>
+        <budget>20</budget>
+        <tempsPreparation>45</tempsPreparation>
+        <ingredients>
+            <nom>riz Arborio</nom>
+            <imageURL>https://daybyday-shop.com/wp-content/uploads/2019/11/13158-riz-arborio.jpg</imageURL>
+            <quantite>250</quantite>
+            <unite>grammes</unite>
+            <sante>B</sante>
+        </ingredients>
+        <ingredients>
+            <nom>champignons de Paris</nom>
+            <imageURL>https://lepotagerdelili.fr/wp-content/uploads/2021/12/champignon.jpg</imageURL>
+            <quantite>300</quantite>
+            <unite>grammes</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>oignon</nom>
+            <imageURL>https://media.carrefour.fr/medias/5b35d48684b9300491973d9df3e26314/p_540x540/3000000041185-0.jpg</imageURL>
+            <quantite>1</quantite>
+            <unite>unité</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>vin blanc sec</nom>
+            <imageURL>https://www.vinovalie-boutique.com/wp-content/uploads/2019/08/PASSION-BLANC.png</imageURL>
+            <quantite>100</quantite>
+            <unite>millilitres</unite>
+            <sante>C</sante>
+        </ingredients>
+        <ingredients>
+            <nom>bouillon de légumes</nom>
+            <imageURL>https://www.aux-fourneaux.fr/wp-content/uploads/2015/02/bouillon-de-legumes-maison-e1424085863240.jpg</imageURL>
+            <quantite>750</quantite>
+            <unite>millilitres</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>parmesan râpé</nom>
+            <imageURL>https://static1.squarespace.com/static/5c41ee979d5abb9ac95e1230/5dc950ffc850db372781c171/61f3fd21841aae7d5e860592/1643380004181/parmesan_rape-le%2Bfromage.jpg?format=1500w</imageURL>
+            <quantite>50</quantite>
+            <unite>grammes</unite>
+            <sante>B</sante>
+        </ingredients>
+        <ingredients>
+            <nom>beurre</nom>
+            <imageURL>https://resize.elle.fr/original/var/plain_site/storage/images/elle-a-table/les-dossiers-de-la-redaction/news-de-la-redaction/bien-consommer-le-beurre-4144284/100148608-1-fre-FR/Bien-consommer-le-beurre-les-bons-gestes-et-erreurs-a-eviter-selon-une-nutritionniste.jpg</imageURL>
+            <quantite>30</quantite>
+            <unite>grammes</unite>
+            <sante>D</sante>
+        </ingredients>
+        <etapes>Nettoyer et couper les champignons en tranches. Réserver.</etapes>
+        <etapes>Émincer finement l'oignon et faire revenir dans une grande casserole avec un peu de beurre jusqu'à ce qu'il soit translucide.</etapes>
+        <etapes>Ajouter le riz et le faire nacrer (rendre légèrement transparent) pendant environ 2 minutes.</etapes>
+        <etapes>Déglacer avec le vin blanc et laisser réduire.</etapes>
+        <etapes>Ajouter une louche de bouillon de légumes chaud et remuer jusqu'à absorption complète par le riz. Répéter l'opération jusqu'à ce que le riz soit al dente.</etapes>
+        <etapes>Parallèlement, faire sauter les champignons dans une poêle avec un peu de beurre jusqu'à ce qu'ils soient dorés.</etapes>
+        <etapes>Une fois le riz cuit, incorporer les champignons sautés et le parmesan râpé. Bien mélanger.</etapes>
+        <etapes>Ajuster l'assaisonnement avec du sel et du poivre. Servir chaud, garni d'un peu plus de parmesan et de persil frais si désiré.</etapes>
+    </recette>
+
+    <recette id="recette_tajine_poulet">
+        <titre>Tajine de Poulet aux Olives et Citrons Confit</titre>
+        <imageRecetteURL>https://images.radio-canada.ca/v1/alimentation/recette/4x3/tajine-poulet-soulard.jpg</imageRecetteURL>
+        <description>Un plat marocain riche en saveurs, combinant la douceur des citrons confits avec la force des olives.</description>
+        <gastronomie>Marocaine</gastronomie>
+        <budget>22</budget>
+        <tempsPreparation>90</tempsPreparation>
+        <ingredients>
+            <nom>cuisses de poulet</nom>
+            <imageURL>https://assets.afcdn.com/recipe/20170607/67722_origin.jpg</imageURL>
+            <quantite>4</quantite>
+            <unite>unités</unite>
+            <sante>B</sante>
+        </ingredients>
+        <ingredients>
+            <nom>olives vertes</nom>
+            <imageURL>https://www.barral.fr/wp-content/uploads/2019/01/olive-verte-denoyautee.jpg</imageURL>
+            <quantite>100</quantite>
+            <unite>grammes</unite>
+            <sante>B</sante>
+        </ingredients>
+        <ingredients>
+            <nom>citrons confits</nom>
+            <imageURL>https://www.aufouraumoulin.com/wp-content/uploads/2015/05/Citrons-confits-saumure.jpg</imageURL>
+            <quantite>2</quantite>
+            <unite>unités</unite>
+            <sante>C</sante>
+        </ingredients>
+        <ingredients>
+            <nom>oignon</nom>
+            <imageURL>https://media.carrefour.fr/medias/5b35d48684b9300491973d9df3e26314/p_540x540/3000000041185-0.jpg</imageURL>
+            <quantite>1</quantite>
+            <unite>unité</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>coriandre fraîche</nom>
+            <imageURL>https://www.asianmarket.fr/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/4/8/4811.jpg</imageURL>
+            <quantite>20</quantite>
+            <unite>grammes</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>safran</nom>
+            <imageURL>https://soriavie.fr/wp-content/uploads/safran.jpg</imageURL>
+            <quantite>1</quantite>
+            <unite>pinch</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>cumin moulu</nom>
+            <imageURL>https://ileauxepices.com/879-large_default/cumin.jpg</imageURL>
+            <quantite>1</quantite>
+            <unite>cuillère à café</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>huile d'olive</nom>
+            <imageURL>https://free-dom.fr/wp-content/uploads/2021/01/bienfaits-de-lhuile-dolive-768x512.jpg</imageURL>
+            <quantite>2</quantite>
+            <unite>cuillères à soupe</unite>
+            <sante>A</sante>
+        </ingredients>
+        <etapes>Faire dorer les cuisses de poulet dans un tajine ou une grande casserole avec un peu d'huile d'olive.</etapes>
+        <etapes>Ajouter l'oignon émincé, le safran, le cumin, du sel et du poivre. Faire revenir jusqu'à ce que l'oignon soit tendre.</etapes>
+        <etapes>Couvrir le poulet d'eau, porter à ébullition, puis baisser le feu et laisser mijoter à couvert pendant environ 30 minutes.</etapes>
+        <etapes>Ajouter les olives et les citrons confits coupés en quartiers. Poursuivre la cuisson pendant 20 minutes.</etapes>
+        <etapes>Peu avant la fin de la cuisson, ajouter la coriandre fraîche hachée.</etapes>
+        <etapes>Vérifier l'assaisonnement et ajuster si nécessaire. Servir le tajine bien chaud, idéalement accompagné de semoule.</etapes>
+    </recette>
+
+    <recette id="recette_gnocchis_gorgonzola">
+        <titre>Gnocchis à la Sauce Gorgonzola et Noix</titre>
+        <imageRecetteURL>https://img-global.cpcdn.com/recipes/de728ea92c99ddb0/680x482cq70/gnocchis-maison-sauce-gorgonzola-mascarpone-et-noix-photo-principale-de-la-recette.jpg</imageRecetteURL>
+        <description>Des gnocchis tendres servis avec une sauce au fromage Gorgonzola crémeuse et garnis de noix croquantes.</description>
+        <gastronomie>Italienne</gastronomie>
+        <budget>20</budget>
+        <tempsPreparation>30</tempsPreparation>
+        <ingredients>
+            <nom>gnocchis</nom>
+            <imageURL>https://iod.keplrstatic.com/api/ar_1.25,g_north,c_fill/ar_1.5,w_800,q_70,c_fill,f_auto,dpr_auto/mon_marche/GNOCCHIS_POMME_DE_TERRE_FRAICHE_400G.jpg</imageURL>
+            <quantite>500</quantite>
+            <unite>grammes</unite>
+            <sante>B</sante>
+        </ingredients>
+        <ingredients>
+            <nom>fromage Gorgonzola</nom>
+            <imageURL>https://www.gourmet-versand.com/img_article_v3/176688-gorgonzola-piccante-fromage-bleu-dop-palzola.jpg</imageURL>
+            <quantite>200</quantite>
+            <unite>grammes</unite>
+            <sante>C</sante>
+        </ingredients>
+        <ingredients>
+            <nom>crème fraîche</nom>
+            <imageURL>https://img-3.journaldesfemmes.fr/pUzNKw36E8HB2OKK7WZX4iuD-_U=/1500x/smart/023459ccd92e4d70b05f0bc82a6cf72d/ccmcms-jdf/24991222.jpg</imageURL>
+            <quantite>100</quantite>
+            <unite>millilitres</unite>
+            <sante>D</sante>
+        </ingredients>
+        <ingredients>
+            <nom>noix</nom>
+            <imageURL>https://www.magasinduchef.com/11221-large_default/cerneaux-de-noix-noble-1kg.jpg</imageURL>
+            <quantite>50</quantite>
+            <unite>grammes</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>parmesan râpé</nom>
+            <imageURL>https://static1.squarespace.com/static/5c41ee979d5abb9ac95e1230/5dc950ffc850db372781c171/61f3fd21841aae7d5e860592/1643380004181/parmesan_rape-le%2Bfromage.jpg?format=1500w</imageURL>
+            <quantite>30</quantite>
+            <unite>grammes</unite>
+            <sante>B</sante>
+        </ingredients>
+        <ingredients>
+            <nom>sel et poivre noir</nom>
+            <imageURL>https://media3.coleandmason.fr/3218362-thickbox_default/coupelles-a-condiments-sel-et-poivre-avec-support.jpg</imageURL>
+            <quantite>2</quantite>
+            <unite>pincés</unite>
+            <sante>A</sante>
+        </ingredients>
+        <etapes>Cuire les gnocchis dans de l'eau salée bouillante jusqu'à ce qu'ils remontent à la surface, puis égoutter.</etapes>
+        <etapes>Dans une casserole, faire fondre le Gorgonzola coupé en morceaux avec la crème fraîche à feu doux, en remuant jusqu'à obtenir une sauce lisse.</etapes>
+        <etapes>Assaisonner la sauce avec du sel et du poivre au goût.</etapes>
+        <etapes>Mélanger délicatement les gnocchis égouttés avec la sauce au Gorgonzola dans la casserole, jusqu'à ce que les gnocchis soient bien enrobés.</etapes>
+        <etapes>Servir les gnocchis nappés de sauce, saupoudrés de noix concassées et de parmesan râpé.</etapes>
+    </recette>
+
+    <recette id="recette_saltimbocca">
+        <titre>Saltimbocca alla Romana</titre>
+        <imageRecetteURL>https://blog.giallozafferano.it/dulcisinforno/wp-content/uploads/2022/06/Saltimbocca-alla-romana-9766.jpg</imageRecetteURL>
+        <description>Des escalopes de veau fines, garnies de jambon de Parme et de sauge, cuites dans du vin blanc.</description>
+        <gastronomie>Italienne</gastronomie>
+        <budget>25</budget>
+        <tempsPreparation>20</tempsPreparation>
+        <ingredients>
+            <nom>escalopes de veau</nom>
+            <imageURL>https://maison-godet.fr/wp-content/uploads/escalope-de-veau.jpg</imageURL>
+            <quantite>4</quantite>
+            <unite>unités</unite>
+            <sante>B</sante>
+        </ingredients>
+        <ingredients>
+            <nom>jambon de Parme</nom>
+            <imageURL>https://d2x8t3l62uwvtb.cloudfront.net/624/conversions/72692-product-show.webp</imageURL>
+            <quantite>4</quantite>
+            <unite>tranches</unite>
+            <sante>C</sante>
+        </ingredients>
+        <ingredients>
+            <nom>feuilles de sauge fraîche</nom>
+            <imageURL>https://www.epices.com/img/cms/feuilles-de-sauge-fraiche.jpg</imageURL>
+            <quantite>8</quantite>
+            <unite>unités</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>vin blanc sec</nom>
+            <imageURL>https://www.vinovalie-boutique.com/wp-content/uploads/2019/08/PASSION-BLANC.png</imageURL>
+            <quantite>100</quantite>
+            <unite>millilitres</unite>
+            <sante>C</sante>
+        </ingredients>
+        <ingredients>
+            <nom>beurre</nom>
+            <imageURL>https://resize.elle.fr/original/var/plain_site/storage/images/elle-a-table/les-dossiers-de-la-redaction/news-de-la-redaction/bien-consommer-le-beurre-4144284/100148608-1-fre-FR/Bien-consommer-le-beurre-les-bons-gestes-et-erreurs-a-eviter-selon-une-nutritionniste.jpg</imageURL>
+            <quantite>30</quantite>
+            <unite>grammes</unite>
+            <sante>D</sante>
+        </ingredients>
+        <ingredients>
+            <nom>huile d'olive</nom>
+            <imageURL>https://free-dom.fr/wp-content/uploads/2021/01/bienfaits-de-lhuile-dolive-768x512.jpg</imageURL>
+            <quantite>2</quantite>
+            <unite>cuillères à soupe</unite>
+            <sante>A</sante>
+        </ingredients>
+        <etapes>Aplatir légèrement les escalopes de veau entre deux feuilles de film alimentaire.</etapes>
+        <etapes>Sur chaque escalope, disposer une tranche de jambon de Parme et deux feuilles de sauge. Fixer avec des cure-dents.</etapes>
+        <etapes>Chauffer un peu d'huile d'olive et du beurre dans une poêle. Faire dorer les escalopes de chaque côté.</etapes>
+        <etapes>Retirer les escalopes de la poêle et déglacer avec le vin blanc. Laisser réduire quelques minutes.</etapes>
+        <etapes>Remettre les escalopes dans la poêle avec la sauce pour les réchauffer.</etapes>
+        <etapes>Servir les saltimbocca nappés de la sauce au vin blanc et retirer les cure-dents avant de servir.</etapes>
+    </recette>
+
+    <recette id="recette_panna_cotta">
+        <titre>Panna Cotta aux Fruits Rouges</titre>
+        <imageRecetteURL>https://img.over-blog-kiwi.com/0/65/19/23/20200623/ob_5bde73_panna-cotta-legere-ww.jpg</imageRecetteURL>
+        <description>Un dessert italien à la texture douce et crémeuse, accompagné d'un coulis de fruits rouges acidulé.</description>
+        <gastronomie>Italienne</gastronomie>
+        <budget>15</budget>
+        <tempsPreparation>240</tempsPreparation>
+        <ingredients>
+            <nom>crème liquide entière</nom>
+            <imageURL>https://producteurslaitiersducanada.ca/sites/default/files/image_file_browser/conso_recipe/creme-fraiche.jpg</imageURL>
+            <quantite>500</quantite>
+            <unite>millilitres</unite>
+            <sante>D</sante>
+        </ingredients>
+        <ingredients>
+            <nom>sucre en poudre</nom>
+            <imageURL>https://halalfs.com/2634-large_default/sucre-en-poudre-1kg.jpg</imageURL>
+            <quantite>100</quantite>
+            <unite>grammes</unite>
+            <sante>E</sante>
+        </ingredients>
+        <ingredients>
+            <nom>gélatine</nom>
+            <imageURL>https://m.media-amazon.com/images/I/61aBcys8VML.jpg</imageURL>
+            <quantite>3</quantite>
+            <unite>feuilles</unite>
+            <sante>C</sante>
+        </ingredients>
+        <ingredients>
+            <nom>vanille</nom>
+            <imageURL>https://sambavanilla.com/modules/prestablog/views/img/grid-for-1-7/up-img/admincrop_43.jpg?d0219e921501211a867e343e2bdcd418</imageURL>
+            <quantite>1</quantite>
+            <unite>gousse</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>fruits rouges assortis</nom>
+            <imageURL>https://mapetiteassiette.com/wp-content/uploads/2022/06/Sans-titre-81.png</imageURL>
+            <quantite>250</quantite>
+            <unite>grammes</unite>
+            <sante>A</sante>
+        </ingredients>
+        <etapes>Faire tremper les feuilles de gélatine dans un bol d'eau froide pour les ramollir.</etapes>
+        <etapes>Chauffer la crème liquide, le sucre et la gousse de vanille fendue en deux dans une casserole jusqu'à frémissement, puis retirer du feu.</etapes>
+        <etapes>Essorer la gélatine et l'incorporer à la crème chaude, remuer jusqu'à dissolution complète.</etapes>
+        <etapes>Verser la préparation dans des verrines et laisser refroidir à température ambiante, puis réfrigérer pendant au moins 4 heures.</etapes>
+        <etapes>Préparer un coulis avec une partie des fruits rouges en les mixant, et sucrer légèrement si nécessaire.</etapes>
+        <etapes>Avant de servir, napper chaque panna cotta du coulis de fruits rouges et décorer avec les fruits restants.</etapes>
+    </recette>
+
+    <recette id="recette_coq_au_vin">
+        <titre>Coq au Vin</titre>
+        <imageRecetteURL>https://static01.nyt.com/images/2023/08/24/multimedia/MC-Coq-Au-Van-ctpm/MC-Coq-Au-Van-ctpm-superJumbo.jpg</imageRecetteURL>
+        <description>Un classique de la cuisine française, mariant le coq mijoté dans une sauce au vin rouge avec des champignons, des oignons perlés et des lardons.</description>
+        <gastronomie>Française</gastronomie>
+        <budget>30</budget>
+        <tempsPreparation>180</tempsPreparation>
+        <ingredients>
+            <nom>coq ou poulet coupé en morceaux</nom>
+            <imageURL>https://static.thiriet.com/data/common_public/gallery_images/site/18756/18774/107741,decoupe_de_coq.jpg</imageURL>
+            <quantite>2</quantite>
+            <unite>kilogrammes</unite>
+            <sante>B</sante>
+        </ingredients>
+        <ingredients>
+            <nom>vin rouge corsé</nom>
+            <imageURL>https://www.lesvigneronsdefontes.com/455-large_default/prieure-saint-hippolyte-rouge.jpg</imageURL>
+            <quantite>750</quantite>
+            <unite>millilitres</unite>
+            <sante>C</sante>
+        </ingredients>
+        <ingredients>
+            <nom>lardons</nom>
+            <imageURL>https://iod.keplrstatic.com/api/ar_1,c_crop,g_north/c_fill,dpr_auto,f_auto,q_70,w_750/mon_marche/H626_Lardons_natures_BIO_200g.jpg</imageURL>
+            <quantite>100</quantite>
+            <unite>grammes</unite>
+            <sante>D</sante>
+        </ingredients>
+        <ingredients>
+            <nom>champignons de Paris</nom>
+            <imageURL>https://lepotagerdelili.fr/wp-content/uploads/2021/12/champignon.jpg</imageURL>
+            <quantite>250</quantite>
+            <unite>grammes</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>oignons perlés</nom>
+            <imageURL>https://www.epicerie-ordinaire.fr/730-large_default/petits-oignons-blanc-120-g-edmond-fallot.jpg</imageURL>
+            <quantite>200</quantite>
+            <unite>grammes</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>ail</nom>
+            <imageURL>https://mediaorigcdna.qooq.com/cache/201911.1/qooq/images/ingredients/zoom_4.jpg</imageURL>
+            <quantite>2</quantite>
+            <unite>gousses</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>bouquet garni</nom>
+            <imageURL>https://upload.wikimedia.org/wikipedia/commons/0/07/Bouquet_garni_p1150476_extracted.jpg</imageURL>
+            <quantite>1</quantite>
+            <unite>unité</unite>
+            <sante>A</sante>
+        </ingredients>
+        <etapes>Mariner les morceaux de coq dans le vin rouge avec l'ail et le bouquet garni pendant 12 heures.</etapes>
+        <etapes>Égoutter les morceaux de coq et les faire dorer dans une cocotte avec un peu d'huile. Réserver.</etapes>
+        <etapes>Faire revenir les lardons, les oignons perlés et les champignons dans la même cocotte.</etapes>
+        <etapes>Remettre le coq dans la cocotte, ajouter la marinade et porter à ébullition.</etapes>
+        <etapes>Couvrir et laisser mijoter à feu doux pendant environ 2 heures.</etapes>
+        <etapes>En fin de cuisson, ajuster l'assaisonnement et lier la sauce si nécessaire avec un peu de beurre manié.</etapes>
+        <etapes>Servir le coq au vin bien chaud, accompagné de pommes de terre vapeur ou de pâtes fraîches.</etapes>
+    </recette>
+
+    <recette id="recette_tarte_tatin">
+        <titre>Tarte Tatin</titre>
+        <imageRecetteURL>https://assets.afcdn.com/recipe/20210203/117779_w1024h768c1cx1060cy707cxt0cyt0cxb2121cyb1414.webp</imageRecetteURL>
+        <description>Une délicieuse tarte aux pommes caramélisées, servie renversée, typique de la cuisine française.</description>
+        <gastronomie>Française</gastronomie>
+        <budget>12</budget>
+        <tempsPreparation>90</tempsPreparation>
+        <ingredients>
+            <nom>pommes</nom>
+            <imageURL>https://www.foodette.fr/wp-content/uploads/2017/08/apple-417924_1920-compressor-1024x656.jpg</imageURL>
+            <quantite>6</quantite>
+            <unite>unités</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>sucre en poudre</nom>
+            <imageURL>https://halalfs.com/2634-large_default/sucre-en-poudre-1kg.jpg</imageURL>
+            <quantite>150</quantite>
+            <unite>grammes</unite>
+            <sante>E</sante>
+        </ingredients>
+        <ingredients>
+            <nom>beurre</nom>
+            <imageURL>https://resize.elle.fr/original/var/plain_site/storage/images/elle-a-table/les-dossiers-de-la-redaction/news-de-la-redaction/bien-consommer-le-beurre-4144284/100148608-1-fre-FR/Bien-consommer-le-beurre-les-bons-gestes-et-erreurs-a-eviter-selon-une-nutritionniste.jpg</imageURL>
+            <quantite>80</quantite>
+            <unite>grammes</unite>
+            <sante>D</sante>
+        </ingredients>
+        <ingredients>
+            <nom>pâte brisée</nom>
+            <imageURL>https://www.undejeunerdesoleil.com/wp-content/uploads/2019/10/Reussir_pate_brisee_recettes_conseils.jpg</imageURL>
+            <quantite>1</quantite>
+            <unite>rouleau</unite>
+            <sante>C</sante>
+        </ingredients>
+        <etapes>Préchauffer le four à 180°C (350°F).</etapes>
+        <etapes>Peler, épépiner et couper les pommes en quartiers.</etapes>
+        <etapes>Dans une poêle allant au four, faire un caramel à sec avec le sucre, puis hors du feu, ajouter le beurre en morceaux.</etapes>
+        <etapes>Disposer les quartiers de pommes sur le caramel, bien serrés, et cuire à feu doux pendant environ 10 minutes.</etapes>
+        <etapes>Recouvrir les pommes avec la pâte brisée, en rentrant bien les bords à l'intérieur de la poêle.</etapes>
+        <etapes>Enfourner pour environ 25 minutes, ou jusqu'à ce que la pâte soit dorée.</etapes>
+        <etapes>Laisser tiédir quelques minutes, puis retourner délicatement la tarte sur un plat de service.</etapes>
+        <etapes>Servir tiède ou à température ambiante, éventuellement accompagnée de crème fraîche ou de glace à la vanille.</etapes>
+    </recette>
+      
       
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
