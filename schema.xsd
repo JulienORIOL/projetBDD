@@ -5,6 +5,7 @@
   <xsd:complexType name="TypeIngredient">
     <xsd:sequence>
       <xsd:element name="nom" type="xsd:string"/>
+      <xsd:element name="imageURL" type="xsd:anyURI"/>
       <xsd:element name="quantite" type="xsd:int"/>
       <xsd:element name="unite" type="xsd:string"/>
       <xsd:element name="sante" type="xsd:string"/> <!-- Ce pourrait être le nutriscore de l'ingrédient par exemple -->
@@ -14,6 +15,7 @@
   <xsd:complexType name="TypeRecette">
     <xsd:sequence>
       <xsd:element name="titre" type="xsd:string"/>
+      <xsd:element name="imageRecetteURL" type="xsd:anyURI"/>
       <xsd:element name="description" type="xsd:string"/>
       <xsd:element name="gastronomie" type="xsd:string"/> <!-- Par exemple végétarien, végan, ou alors Italien, Américain… -->
       <xsd:element name="budget" type="xsd:int"/> <!-- Prix en euros -->

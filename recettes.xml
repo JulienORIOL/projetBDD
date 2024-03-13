@@ -32,97 +32,215 @@
     <!-- On définit des recettes qui vont pouvoir être inclues dans nos menus -->
     <recette id="recette_poulet_curry">
         <titre>Poulet au curry</titre>
+        <imageRecetteURL>https://static.750g.com/images/1200-675/91ab938d758f762c1f3f84286b121e53/adobestock-307737508.jpeg</imageRecetteURL>
         <description>Poulet tendre dans une sauce curry onctueuse avec du riz !</description>
         <gastronomie>Indienne</gastronomie>
         <budget>25</budget>
         <tempsPreparation>45</tempsPreparation>
         <ingredients>
             <nom>poulet</nom>
+            <imageURL>https://cdn02.plentymarkets.com/xlzn8fmweulj/item/images/11268/full/11268-Haehnchen-roh-Lebensmittel-Attrappe-23-cm-11268-Haehnchen-roh-20x16x10cm-641-388-00-1-0-02.png</imageURL>
             <quantite>400</quantite>
             <unite>grammes</unite>
             <sante>B</sante>
         </ingredients>
         <ingredients>
             <nom>pâte de curry</nom>
+            <imageURL>https://thegreenquest.org/fr/wp-content/uploads/sites/2/2020/04/Cauliflower-curry-6-of-7-500x500.jpg</imageURL>
             <quantite>3</quantite>
             <unite>cuillères à soupe</unite>
             <sante>C</sante>
         </ingredients>
-        <etapes>Faire revenir le poulet dans une poêle</etapes>
-        <etapes>Ajouter la pâte de curry et la crème, puis laisser mijoter</etapes>
+        <ingredients>
+            <nom>crème de coco</nom>
+            <imageURL>https://www.jevtobond.com/wp-content/uploads/2016/06/meilleur-lait-creme-coco-cuisine-thai.jpg</imageURL>
+            <quantite>200</quantite>
+            <unite>millilitres</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>riz basmati</nom>
+            <imageURL>https://www.papillesetpupilles.fr/wp-content/uploads/2016/03/Riz-basmati-©-teleginatania-shutterstock.jpg</imageURL>
+            <quantite>300</quantite>
+            <unite>grammes</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>huile d'olive</nom>
+            <imageURL>https://free-dom.fr/wp-content/uploads/2021/01/bienfaits-de-lhuile-dolive-768x512.jpg</imageURL>
+            <quantite>2</quantite>
+            <unite>cuillères à soupe</unite>
+            <sante>A</sante>
+        </ingredients>
+        <etapes>Chauffer l'huile dans une poêle à feu moyen.</etapes>
+        <etapes>Faire revenir le poulet jusqu'à ce qu'il soit doré de tous les côtés.</etapes>
+        <etapes>Retirer le poulet et faire revenir les oignons émincés jusqu'à ce qu'ils soient tendres.</etapes>
+        <etapes>Ajouter la pâte de curry et laisser cuire pendant une minute.</etapes>
+        <etapes>Remettre le poulet dans la poêle, ajouter la crème de coco et porter à ébullition.</etapes>
+        <etapes>Réduire le feu et laisser mijoter jusqu'à ce que le poulet soit cuit.</etapes>
+        <etapes>Cuire le riz basmati selon les instructions du paquet.</etapes>
+        <etapes>Servir le poulet au curry sur un lit de riz basmati.</etapes>
     </recette>
 
     <recette id="recette_spaghetti_carbonara">
         <titre>Spaghetti Carbonara</titre>
+        <imageRecetteURL>https://i.notrefamille.com/1400x787/smart/2020/11/26/52098-large.jpg</imageRecetteURL>
         <description>Spaghetti avec une sauce crémeuse au lard et au fromage !</description>
         <gastronomie>Italienne</gastronomie>
         <budget>20</budget>
         <tempsPreparation>30</tempsPreparation>
         <ingredients>
             <nom>spaghetti</nom>
+            <imageURL>https://us.123rf.com/450wm/pioneer111/pioneer1111502/pioneer111150200018/36467938-spaghetti-cru-isolé-sur-fond-blanc.jpg</imageURL>
             <quantite>500</quantite>
             <unite>grammes</unite>
             <sante>B</sante>
         </ingredients>
         <ingredients>
             <nom>lardons</nom>
+            <imageURL>https://iod.keplrstatic.com/api/ar_1,c_crop,g_north/c_fill,dpr_auto,f_auto,q_70,w_750/mon_marche/H626_Lardons_natures_BIO_200g.jpg</imageURL>
             <quantite>150</quantite>
             <unite>grammes</unite>
             <sante>D</sante>
         </ingredients>
-        <etapes>Cuire les spaghetti al dente</etapes>
-        <etapes>Faire revenir les lardons et préparer la sauce</etapes>
+        <ingredients>
+            <nom>œufs</nom>
+            <imageURL>https://www.framboizeinthekitchen.com/wp-content/uploads/2018/04/oeufs.jpg</imageURL>
+            <quantite>4</quantite>
+            <unite>unités</unite>
+            <sante>B</sante>
+        </ingredients>
+        <ingredients>
+            <nom>fromage Parmesan râpé</nom>
+            <imageURL>https://static1.squarespace.com/static/5c41ee979d5abb9ac95e1230/5dc950ffc850db372781c171/61f3fd21841aae7d5e860592/1643380004181/parmesan_rape-le%2Bfromage.jpg?format=1500w</imageURL>
+            <quantite>100</quantite>
+            <unite>grammes</unite>
+            <sante>C</sante>
+        </ingredients>
+        <ingredients>
+            <nom>gousse d'ail</nom>
+            <imageURL>https://mediaorigcdna.qooq.com/cache/201911.1/qooq/images/ingredients/zoom_4.jpg</imageURL>
+            <quantite>1</quantite>
+            <unite>unité</unite>
+            <sante>A</sante>
+        </ingredients>
+        <etapes>Cuire les spaghetti dans de l'eau salée jusqu'à ce qu'ils soient al dente.</etapes>
+        <etapes>Faire revenir les lardons dans une poêle sans ajouter de matière grasse. Ajouter la gousse d'ail écrasée pour plus de saveur.</etapes>
+        <etapes>Dans un bol, battre les œufs et ajouter le Parmesan râpé. Assaisonner avec du sel et du poivre noir au goût.</etapes>
+        <etapes>Une fois les spaghetti cuits, les égoutter et les remettre dans la casserole. Retirer la poêle du feu et ajouter les spaghetti aux lardons.</etapes>
+        <etapes>Verser rapidement le mélange d'œufs et de fromage sur les spaghetti tout en mélangeant énergiquement pour que les œufs ne cuisent pas en omelette.</etapes>
+        <etapes>Servir immédiatement, garni de Parmesan supplémentaire et d'un tour de moulin à poivre.</etapes>
     </recette>
 
     <recette id="recette_salade_césar">
         <titre>Salade César</titre>
-        <description>Salade croquante avec poulet grillé, croûtons et sauce César !</description>
+        <imageRecetteURL>https://www.adeline-cuisine.fr/wp-content/uploads/2016/07/salade-cesar-recette-sauce-caesar-salad.jpg</imageRecetteURL>
+        <description>Salade croquante avec poulet grillé, croûtons et sauce César.</description>
         <gastronomie>Americaine</gastronomie>
         <budget>15</budget>
         <tempsPreparation>25</tempsPreparation>
         <ingredients>
-            <nom>laitue</nom>
+            <nom>laitue romaine</nom>
+            <imageURL>https://www.roseedeschamps.fr/wp-content/uploads/2021/05/LAITUE.jpg</imageURL>
             <quantite>1</quantite>
             <unite>unité</unite>
             <sante>A</sante>
         </ingredients>
         <ingredients>
-            <nom>poulet</nom>
+            <nom>blanc de poulet</nom>
+            <imageURL>https://resize-gulli.jnsmedia.fr/rcrop/584,326,smartcrop,center-top/img//var/jeunesse/storage/images/gulli/activites/cuisine/plats/blanc-de-poulet-a-la-cannelle/19843314-1-fre-FR/Blanc-de-poulet-a-la-cannelle.jpg</imageURL>
             <quantite>200</quantite>
             <unite>grammes</unite>
             <sante>B</sante>
         </ingredients>
         <ingredients>
             <nom>sauce César</nom>
-            <quantite>10</quantite>
+            <imageURL>https://www.soreal.fr/images/medias/recettes_sauce-caesar-384x3404x.jpg</imageURL>
+            <quantite>50</quantite>
             <unite>millilitres</unite>
             <sante>C</sante>
         </ingredients>
-        <etapes>Griller le poulet et préparer la salade</etapes>
-        <etapes>Ajouter les croûtons et la sauce</etapes>
+        <ingredients>
+            <nom>croûtons</nom>
+            <imageURL>https://littlesunnykitchen.com/wp-content/uploads/2021/12/Air-Fryer-Croutons-Recipe-1.jpg</imageURL>
+            <quantite>50</quantite>
+            <unite>grammes</unite>
+            <sante>B</sante>
+        </ingredients>
+        <ingredients>
+            <nom>parmesan râpé</nom>
+            <imageURL>https://static1.squarespace.com/static/5c41ee979d5abb9ac95e1230/5dc950ffc850db372781c171/61f3fd21841aae7d5e860592/1643380004181/parmesan_rape-le%2Bfromage.jpg?format=1500w</imageURL>
+            <quantite>30</quantite>
+            <unite>grammes</unite>
+            <sante>B</sante>
+        </ingredients>
+        <etapes>Laver et hacher la laitue romaine, puis la placer dans un grand saladier.</etapes>
+        <etapes>Saisir les blancs de poulet dans une poêle avec un peu d'huile d'olive jusqu'à ce qu'ils soient bien dorés et cuits à cœur. Laisser refroidir puis couper en tranches fines.</etapes>
+        <etapes>Ajouter le poulet tranché sur la laitue.</etapes>
+        <etapes>Saupoudrer les croûtons et le parmesan râpé sur la salade.</etapes>
+        <etapes>Arroser la salade de sauce César, puis mélanger délicatement pour bien enrober tous les ingrédients.</etapes>
+        <etapes>Servir immédiatement.</etapes>
     </recette>
+      
 
     <recette id="recette_ratatouille">
         <titre>Ratatouille</titre>
-        <description>Mélange de légumes méditerranéens lentement mijotés !</description>
+        <imageRecetteURL>https://images.radio-canada.ca/v1/alimentation/recette/16x9/ratatouille-italienne-ciammotta.jpg</imageRecetteURL>
+        <description>Mélange de légumes méditerranéens lentement mijotés.</description>
         <gastronomie>Française</gastronomie>
         <budget>18</budget>
         <tempsPreparation>60</tempsPreparation>
         <ingredients>
             <nom>courgette</nom>
+            <imageURL>https://www.jaimefruitsetlegumes.ca/wp-content/uploads/2019/09/courgette-scaled-e1639688670152.jpg</imageURL>
             <quantite>2</quantite>
             <unite>unités</unite>
             <sante>A</sante>
         </ingredients>
         <ingredients>
             <nom>aubergine</nom>
+            <imageURL>https://mapetiteassiette.com/wp-content/uploads/2020/07/aubergine.jpg</imageURL>
             <quantite>1</quantite>
             <unite>unité</unite>
             <sante>A</sante>
         </ingredients>
-        <etapes>Faire revenir chaque légume séparément</etapes>
-        <etapes>Mélanger les légumes et laisser mijoter à feu doux</etapes>
+        <ingredients>
+            <nom>tomate</nom>
+            <imageURL>https://www.roseedeschamps.fr/wp-content/uploads/2019/01/tomate.jpg</imageURL>
+            <quantite>4</quantite>
+            <unite>unités</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>poivron rouge</nom>
+            <imageURL>https://www.croissy-fruits.fr/photos/pgiArticle/42-3/poivron-rouge-1604925597.jpg</imageURL>
+            <quantite>1</quantite>
+            <unite>unité</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>oignon jaune</nom>
+            <imageURL>https://media.carrefour.fr/medias/5b35d48684b9300491973d9df3e26314/p_540x540/3000000041185-0.jpg</imageURL>
+            <quantite>1</quantite>
+            <unite>unité</unite>
+            <sante>A</sante>
+        </ingredients>
+        <ingredients>
+            <nom>gousse d'ail</nom>
+            <imageURL>https://mediaorigcdna.qooq.com/cache/201911.1/qooq/images/ingredients/zoom_4.jpg</imageURL>
+            <quantite>2</quantite>
+            <unite>unités</unite>
+            <sante>A</sante>
+        </ingredients>
+        <etapes>Laver et couper tous les légumes en morceaux de taille égale.</etapes>
+        <etapes>Faire revenir l'oignon et l'ail émincés dans de l'huile d'olive jusqu'à ce qu'ils soient transparents.</etapes>
+        <etapes>Ajouter les poivrons et faire revenir pendant quelques minutes.</etapes>
+        <etapes>Incorporer les aubergines et les courgettes, et faire revenir jusqu'à ce qu'elles commencent à ramollir.</etapes>
+        <etapes>Ajouter les tomates coupées en dés, assaisonner de sel, de poivre et d'herbes de Provence.</etapes>
+        <etapes>Couvrir et laisser mijoter à feu doux pendant environ 30 minutes, en remuant de temps en temps.</etapes>
+        <etapes>Ajuster l'assaisonnement au goût et servir chaud, soit comme plat principal, soit comme accompagnement.</etapes>
     </recette>
+      
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
     <!-- On définit des menus que nos clients vont pouvoir commander -->

@@ -3,7 +3,60 @@ body {
     max-width: 800px;
     margin: auto;
     padding: 20px;
-    background-color: #f8f8f8;
+  }
+  
+  .content {
+    /* autres propriétés */
+    background: rgba(255, 255, 255, 0.5); /* arrière-plan blanc avec une opacité de 50% */
+    padding: 20px; /* ou selon l'espacement souhaité */
+    border-radius: 20px;
+  }
+  
+  .ingredient-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #fff; /* Optionnel : Ajoute une bordure blanche pour un effet 'décollé' */
+    box-shadow: 0px 0px 5px #aaa;
+  }
+
+  .ingredient-wrapper {
+    display: flex;
+    align-items: center; /* Centre verticalement les enfants */
+    justify-content: space-between;
+    gap: 20px; /* Espace entre l'image et le texte */
+    padding: 10px 20px 10px 10px;
+    background: #fff;
+    border-radius: 20px; /* Bord arrondi pour le rectangle */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .ingredient-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .ingredient-image {
+    border-radius: 50%; /* Rend l'image ronde */
+    object-fit: cover; /* S'assure que l'image couvre le rond sans déformation */
+    overflow: hidden;
+    width: 100px; /* Taille de l'image */
+    height: 100px; /* Taille de l'image */
+  }
+  
+  .ingredient-info {
+    display: flex;
+    flex-direction: column; /* Stack les éléments verticalement */
+  }
+  
+  .ingredient-quantity {
+    font-weight: bold;
+  }
+  
+  .ingredient-name {
+    text-transform: capitalize;
   }
   
   h1, h2 {
@@ -21,11 +74,9 @@ body {
   }
   
   ul li, ol li {
-    background-color: #fff;
     padding: 8px 15px;
     margin-bottom: 8px;
     border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
   
   ol {
@@ -44,6 +95,23 @@ body {
   }
   
   strong {
-    color: #E07A5F; /* or any color you prefer */
+    color: #E07A5F;
+  }
+  
+  .information {
+    font-weight: bold;
+    color: #0F056B;
+  }
+
+  .nutri-score {
+    height: 60px;
+    width: 120px;
+  }
+
+  .section-separator {
+    border: 0; /* Enlève la bordure par défaut */
+    height: 1.5px; /* Définit la hauteur de la ligne de séparation */
+    background-color: #3a3a3a; /* Couleur de la ligne */
+    margin: 40px 50px; /* Espacement au-dessus et en dessous de la ligne */
   }
   
